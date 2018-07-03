@@ -1,0 +1,23 @@
+<dashboard>
+  <label>Information Sources</label>
+  <row>
+    <panel>
+      <html>
+      <h2>
+      Splunk&gt; see the forest, and the trees!! All data has security relevance if you've the right tools to correlate across disparate and complex systems.
+      </h2>
+      <ul>
+        
+          <li>Splunk&gt; for  <a href="https://www.splunk.com/en_us/solutions/solution-areas/security-and-fraud.html">Security, Compliance and Fraud</a>.</li>
+          <li>Splunk&gt; Products for Security include  <a href="https://www.splunk.com/en_us/products/splunk-enterprise.html">Core</a>, <a href="https://www.splunk.com/en_us/products/premium-solutions/splunk-enterprise-security.html">Enterprise Security</a>, <a href="https://www.splunk.com/en_us/products/premium-solutions/user-behavior-analytics.html">Splunk&gt; UBA</a>.</li>
+          <li>Details on Splunk&gt; <a href="https://www.splunk.com/en_us/resources/use-cases.html">Security Use Cases</a>.</li>
+          <li>Mapping Splunk Software to the Center for Internet Security top 20 <a href="http://www.splunk.com/web_assets/pdfs/secure/Splunk-and-the-SANS-Top-20-Critical-Security-Controls.pdf">Critical Security Controls</a>.</li>
+          <li>Splunk&gt; User Conference <a href="http://conf.splunk.com/sessions/2016-sessions.html#premiums=Splunk%20Enterprise%20Security&amp;premiums=Splunk%20User%20Behavior%20Analytics&amp;">Security, Compliance and Fraud</a>.</li>
+      </ul>
+      <h2>
+      The following is a high level view of <i>"SOME"</i> of the data sources required to meet <i>"JUST SOME"</i> the many many Splunk&gt; security use cases. However, it is <i>"NOT"</i> an exhaustive list of Splunk&gt; security use cases or potential sources to enrich and provide that actionable intelligence.
+      </h2>
+    </html>
+    </panel>
+  </row>
+</dashboard>

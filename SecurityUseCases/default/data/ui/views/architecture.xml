@@ -1,0 +1,12 @@
+<dashboard>
+  <label>Architecture</label>
+  <row>
+    <panel>
+      <html>
+		<center>
+          <img src="/static/app/SecurityUseCases/images/arch.png"/>
+    </center>
+      </html>
+    </panel>
+  </row>
+</dashboard>

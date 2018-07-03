@@ -1,0 +1,13 @@
+testname,mem_mb,cpu_percent,disk_write_kb,cpu_usr_time,time
+aws.m3.large_fit_KMeans_i5000_f50,0.0,0.0,0.0,0.0,2016-09-08 21:28:27
+aws.m3.large_fit_KMeans_i5000_f50,21.0,0.0,0.0,0.15,2016-09-08 21:28:27
+aws.m3.large_fit_KMeans_i5000_f50,43.0,93.9,0.0,0.33,2016-09-08 21:28:27
+aws.m3.large_fit_KMeans_i5000_f50,58.0,98.1,0.0,0.53,2016-09-08 21:28:28
+aws.m3.large_fit_KMeans_i5000_f50,82.0,74.7,4.0,0.63,2016-09-08 21:28:28
+aws.m3.large_fit_KMeans_i5000_f50,87.0,94.6,4.0,0.87,2016-09-08 21:28:28
+aws.m3.large_fit_KMeans_i5000_f50,87.0,98.4,4.0,1.12,2016-09-08 21:28:28
+aws.m3.large_fit_KMeans_i5000_f50,87.0,98.2,4.0,1.37,2016-09-08 21:28:29
+aws.m3.large_fit_KMeans_i5000_f50,87.0,98.6,4.0,1.62,2016-09-08 21:28:29
+aws.m3.large_fit_KMeans_i5000_f50,93.0,99.1,4.0,1.86,2016-09-08 21:28:29
+aws.m3.large_fit_KMeans_i5000_f50,93.0,46.3,40.0,1.95,2016-09-08 21:28:29
+aws.m3.large_fit_KMeans_i5000_f50,82.0,0.0,44.0,1.95,2016-09-08 21:28:30

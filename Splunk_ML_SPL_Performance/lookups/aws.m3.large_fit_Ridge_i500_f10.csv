@@ -1,0 +1,6 @@
+testname,mem_mb,cpu_percent,disk_write_kb,cpu_usr_time,time
+aws.m3.large_fit_Ridge_i500_f10,0.0,0.0,0.0,0.0,2016-09-08 17:50:28
+aws.m3.large_fit_Ridge_i500_f10,21.0,0.0,0.0,0.14,2016-09-08 17:50:28
+aws.m3.large_fit_Ridge_i500_f10,42.0,95.1,4.0,0.31,2016-09-08 17:50:28
+aws.m3.large_fit_Ridge_i500_f10,59.0,98.8,4.0,0.5,2016-09-08 17:50:28
+aws.m3.large_fit_Ridge_i500_f10,65.0,50.6,12.0,0.58,2016-09-08 17:50:29

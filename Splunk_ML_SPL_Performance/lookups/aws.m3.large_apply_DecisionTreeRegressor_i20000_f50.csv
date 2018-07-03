@@ -1,0 +1,12 @@
+testname,mem_mb,cpu_percent,disk_write_kb,cpu_usr_time,time
+aws.m3.large_apply_DecisionTreeRegressor_i20000_f50,0.0,0.0,0.0,0.0,2016-09-09 19:50:39
+aws.m3.large_apply_DecisionTreeRegressor_i20000_f50,21.0,0.0,0.0,0.13,2016-09-09 19:50:39
+aws.m3.large_apply_DecisionTreeRegressor_i20000_f50,38.0,79.8,4.0,0.28,2016-09-09 19:50:40
+aws.m3.large_apply_DecisionTreeRegressor_i20000_f50,38.0,0.0,4.0,0.28,2016-09-09 19:50:40
+aws.m3.large_apply_DecisionTreeRegressor_i20000_f50,56.0,78.5,4.0,0.43,2016-09-09 19:50:40
+aws.m3.large_apply_DecisionTreeRegressor_i20000_f50,85.0,95.5,4.0,0.6,2016-09-09 19:50:40
+aws.m3.large_apply_DecisionTreeRegressor_i20000_f50,111.0,98.8,4.0,0.76,2016-09-09 19:50:41
+aws.m3.large_apply_DecisionTreeRegressor_i20000_f50,106.0,97.9,4.0,0.98,2016-09-09 19:50:41
+aws.m3.large_apply_DecisionTreeRegressor_i20000_f50,108.0,99.3,4.0,1.23,2016-09-09 19:50:41
+aws.m3.large_apply_DecisionTreeRegressor_i20000_f50,81.0,51.5,4.0,1.35,2016-09-09 19:50:41
+aws.m3.large_apply_DecisionTreeRegressor_i20000_f50,81.0,0.0,4.0,1.35,2016-09-09 19:50:42

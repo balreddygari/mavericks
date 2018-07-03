@@ -1,0 +1,153 @@
+<!-- Copyright (C) 2010-2018 Sideview LLC.  All Rights Reserved. -->
+<view autoCancelInterval="90" isVisible="true" onunloadCancelJobs="true" template="dashboard.html" isSticky="False">
+  <label>Home</label>
+
+  <module name="AccountBar" layoutPanel="appHeader" />
+
+  <module name="AppBar" layoutPanel="appHeader" />
+
+  <module name="SideviewUtils" layoutPanel="appHeader" />
+
+  <module name="Messaging" layoutPanel="messaging" />
+
+  <module name="HTML" layoutPanel="viewHeader">
+    <param name="html"><![CDATA[
+    <h1>Welcome to Sideview Utils 3.4.2</h1>
+    ]]></param>
+  </module>
+  <module name="HTML" layoutPanel="mainSearchControls">
+    <param name="src">error_messages.html</param>
+  </module>
+
+  
+  <module name="HTML" layoutPanel="panel_row1_col1">
+    <param name="html"><![CDATA[
+      
+      <h2>Sideview Utils makes it easier to develop custom Splunk dashboards and views in the Advanced XML.</h2> 
+       
+      <p>
+        Splunk deprecated the Advanced XML but many people continue to use Sideview Utils and what is called the "Sideview XML".  Why?  For some the Simple XML can be both too limited or too complex or too hard to use, but at the same time Splunk HTML dashboards require a developer skillset and mindset that they don't have.   If any of this sounds familiar,  this may be what you're looking for. 
+      </p>
+
+      <h2>Wait what happens when Splunk finally removes the Advanced XML systems?</h2>
+      
+      <p>There is a new app we're working on called Canary.  It's essentially its own front end for Splunk that can render Sideview XML views.  It is not quite ready yet but stay tuned.  Splunk can't remove the Advanced XML any earlier than 7.2 or 8.0 so we still have a little time to finish it.</p>
+
+      
+    ]]></param>
+  </module>
+
+  <module name="HTML" layoutPanel="panel_row1_col2">
+    <param name="html"><![CDATA[
+
+      <h2>What do I need to know to get started?</h2>
+
+      <ol>         
+        <li>
+          that Splunk "views" are composed of "modules", and how modules communicate information "downstream".  If you don't know this <a href="framework_intro">then read this page carefully <b> a few times</b></a>. 
+        </li>
+
+        <li>
+          That to use Sideview modules in a view <b>you MUST also include a "SideviewUtils" module in the view</b>.  It is invisible but necessary. Put it at the top of the view so it's out of the way.
+        </li>
+
+        <li>
+          You're ready. Study the examples in this app and use as much or as little as you want/need. 
+          <a href="https://sideviewapps.com/apps/sideview-utils/mailing-list/" target="_blank">Get on our mailing list</a> to stay on top of new releases.
+        </li>
+      </ol>
+
+     <a href="https://localhost:8000/en-US/app/sideview_utils/framework_intro">Get Started!</a>
+
+    ]]></param>
+  </module>
+
+  <module name="HTML" layoutPanel="panel_row2_col1">
+    <param name="html"><![CDATA[
+      
+      <h2>What problems are you looking to solve?</h2>
+    ]]></param>
+  </module>
+
+
+  <module name="URLLoader" layoutPanel="panel_row2_col1" autoRun="True">
+    <module name="Search">
+      <param name="search">| inputlookup module_gallery | eval module=split(module,",") | eval area=split(area,",") | mvexpand module | mvexpand area | stats count by module area</param>
+      
+      <module name="Pulldown">
+        <param name="name">area</param>
+        <param name="label">Solution Area:</param>
+        <param name="template">$name$="*$value$*"</param>
+        <param name="valueField">area</param>
+        <param name="postProcess">dedup $name$ | sort $name$</param>
+        <param name="float">left</param>
+        <param name="staticOptions">
+          <list>
+            <param name="label">All</param>
+            <param name="value"></param>
+          </list>
+        </param>
+        
+        <module name="Pulldown">
+          <param name="name">module</param>
+          <param name="label">Sideview Module:</param>
+          <param name="template">$name$="*$value$*"</param>
+          <param name="valueField">module</param>
+          <param name="postProcess">search $area$ | dedup $name$ | sort $name$</param>
+          <param name="float">left</param>
+          <param name="staticOptions">
+            <list>
+              <param name="label">All</param>
+              <param name="value"></param>
+            </list>
+          </param>
+        
+          <module name="TextField">
+            <param name="name">searchterms</param>
+            <param name="label">Search:</param>
+            <param name="template">| eval _raw=problem+" "+module+" "+solution_description+" "+area+" "+page | 
+   search $value$ | fields - _raw | sort 0 - value</param>
+
+
+            <module name="Search">
+              <param name="search">| inputlookup module_gallery $searchterms$ | search * $area$ $module$ | table problem description area *</param>
+              
+              <module name="HTML">
+                <param name="html"><![CDATA[
+                  <h2>$results.count$ problems and solutions found</h2>
+                ]]></param>
+              </module>
+
+              <module name="Pager">
+                
+                <!--  the group=" " is to workaround an annoyance from the 
+                dashboard template. Although the Table module's constructor 
+                also reaches up and takes away the green header,  putting an
+                empty group attribute like this prevents the text from being 
+                there in the first place.
+                -->
+                <module name="Table" group=" ">
+                  <param name="hiddenFields">solution_description,module,page,value</param>
+                  
+                  <module name="HTML" group="row.fields.description">  
+                    <param name="html"><![CDATA[
+                      $row.fields.solution_description.rawValue$<br><br>
+                      <b>Modules:</b> $row.fields.module.rawValue$<br>
+                      <b>Docs and Examples:</b> $row.fields.page.rawValue$<br>
+                    ]]></param>
+                  </module>
+
+                  <module name="Redirector">  
+                    <param name="url">$row.fields.page.rawValue$</param>
+                  </module>
+                </module>
+                <module name="Pager"></module>
+              </module>
+            </module>
+          </module>
+        </module>
+      </module>
+    </module>
+  </module>
+
+</view>

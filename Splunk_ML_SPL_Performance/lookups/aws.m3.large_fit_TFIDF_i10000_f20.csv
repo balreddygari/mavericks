@@ -1,0 +1,9 @@
+testname,mem_mb,cpu_percent,disk_write_kb,cpu_usr_time,time
+aws.m3.large_fit_TFIDF_i10000_f20,0.0,0.0,0.0,0.0,2016-09-09 03:12:34
+aws.m3.large_fit_TFIDF_i10000_f20,21.0,0.0,0.0,0.13,2016-09-09 03:12:34
+aws.m3.large_fit_TFIDF_i10000_f20,42.0,98.2,4.0,0.32,2016-09-09 03:12:34
+aws.m3.large_fit_TFIDF_i10000_f20,59.0,87.7,4.0,0.52,2016-09-09 03:12:35
+aws.m3.large_fit_TFIDF_i10000_f20,65.0,93.0,8.0,0.71,2016-09-09 03:12:35
+aws.m3.large_fit_TFIDF_i10000_f20,70.0,97.8,8.0,0.94,2016-09-09 03:12:35
+aws.m3.large_fit_TFIDF_i10000_f20,72.0,46.9,28.0,1.03,2016-09-09 03:12:35
+aws.m3.large_fit_TFIDF_i10000_f20,70.0,34.0,32.0,1.09,2016-09-09 03:12:36

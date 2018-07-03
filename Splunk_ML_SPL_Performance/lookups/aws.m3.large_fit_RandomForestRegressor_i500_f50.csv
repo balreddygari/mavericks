@@ -1,0 +1,6 @@
+testname,mem_mb,cpu_percent,disk_write_kb,cpu_usr_time,time
+aws.m3.large_fit_RandomForestRegressor_i500_f50,0.0,0.0,0.0,0.0,2016-09-08 18:16:09
+aws.m3.large_fit_RandomForestRegressor_i500_f50,21.0,0.0,0.0,0.14,2016-09-08 18:16:10
+aws.m3.large_fit_RandomForestRegressor_i500_f50,41.0,91.1,0.0,0.31,2016-09-08 18:16:10
+aws.m3.large_fit_RandomForestRegressor_i500_f50,58.0,98.8,0.0,0.51,2016-09-08 18:16:10
+aws.m3.large_fit_RandomForestRegressor_i500_f50,67.0,95.7,548.0,0.7,2016-09-08 18:16:10

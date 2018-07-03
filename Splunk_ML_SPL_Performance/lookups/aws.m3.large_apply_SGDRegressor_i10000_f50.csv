@@ -1,0 +1,9 @@
+testname,mem_mb,cpu_percent,disk_write_kb,cpu_usr_time,time
+aws.m3.large_apply_SGDRegressor_i10000_f50,0.0,0.0,0.0,0.0,2016-09-09 21:49:57
+aws.m3.large_apply_SGDRegressor_i10000_f50,21.0,0.0,0.0,0.13,2016-09-09 21:49:58
+aws.m3.large_apply_SGDRegressor_i10000_f50,38.0,83.6,4.0,0.29,2016-09-09 21:49:58
+aws.m3.large_apply_SGDRegressor_i10000_f50,51.0,48.1,4.0,0.37,2016-09-09 21:49:58
+aws.m3.large_apply_SGDRegressor_i10000_f50,77.0,101.5,4.0,0.56,2016-09-09 21:49:58
+aws.m3.large_apply_SGDRegressor_i10000_f50,85.0,94.9,4.0,0.72,2016-09-09 21:49:59
+aws.m3.large_apply_SGDRegressor_i10000_f50,87.0,99.3,4.0,0.97,2016-09-09 21:49:59
+aws.m3.large_apply_SGDRegressor_i10000_f50,73.0,16.0,12.0,1.0,2016-09-09 21:49:59

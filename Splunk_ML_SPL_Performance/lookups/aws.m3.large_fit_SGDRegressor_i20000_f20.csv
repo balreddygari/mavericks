@@ -1,0 +1,16 @@
+testname,mem_mb,cpu_percent,disk_write_kb,cpu_usr_time,time
+aws.m3.large_fit_SGDRegressor_i20000_f20,0.0,0.0,0.0,0.0,2016-09-08 18:58:01
+aws.m3.large_fit_SGDRegressor_i20000_f20,20.0,0.0,0.0,0.11,2016-09-08 18:58:01
+aws.m3.large_fit_SGDRegressor_i20000_f20,38.0,94.6,4.0,0.3,2016-09-08 18:58:01
+aws.m3.large_fit_SGDRegressor_i20000_f20,53.0,102.1,4.0,0.52,2016-09-08 18:58:01
+aws.m3.large_fit_SGDRegressor_i20000_f20,61.0,23.0,8.0,0.56,2016-09-08 18:58:02
+aws.m3.large_fit_SGDRegressor_i20000_f20,85.0,59.9,8.0,0.66,2016-09-08 18:58:02
+aws.m3.large_fit_SGDRegressor_i20000_f20,139.0,101.6,8.0,0.8,2016-09-08 18:58:02
+aws.m3.large_fit_SGDRegressor_i20000_f20,150.0,99.0,8.0,1.04,2016-09-08 18:58:02
+aws.m3.large_fit_SGDRegressor_i20000_f20,152.0,87.9,8.0,1.28,2016-09-08 18:58:03
+aws.m3.large_fit_SGDRegressor_i20000_f20,149.0,99.1,16.0,1.48,2016-09-08 18:58:03
+aws.m3.large_fit_SGDRegressor_i20000_f20,128.0,7.9,24.0,1.49,2016-09-08 18:58:03
+aws.m3.large_fit_SGDRegressor_i20000_f20,128.0,0.0,24.0,1.49,2016-09-08 18:58:03
+aws.m3.large_fit_SGDRegressor_i20000_f20,128.0,0.0,24.0,1.49,2016-09-08 18:58:04
+aws.m3.large_fit_SGDRegressor_i20000_f20,128.0,0.0,24.0,1.49,2016-09-08 18:58:04
+aws.m3.large_fit_SGDRegressor_i20000_f20,0.0,0.0,0.0,0.0,2016-09-08 18:58:04

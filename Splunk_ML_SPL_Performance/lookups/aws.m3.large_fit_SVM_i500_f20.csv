@@ -1,0 +1,6 @@
+testname,mem_mb,cpu_percent,disk_write_kb,cpu_usr_time,time
+aws.m3.large_fit_SVM_i500_f20,0.0,0.0,0.0,0.0,2016-09-08 19:31:36
+aws.m3.large_fit_SVM_i500_f20,21.0,0.0,0.0,0.14,2016-09-08 19:31:36
+aws.m3.large_fit_SVM_i500_f20,42.0,95.1,4.0,0.31,2016-09-08 19:31:37
+aws.m3.large_fit_SVM_i500_f20,54.0,90.8,4.0,0.5,2016-09-08 19:31:37
+aws.m3.large_fit_SVM_i500_f20,66.0,91.8,8.0,0.69,2016-09-08 19:31:37

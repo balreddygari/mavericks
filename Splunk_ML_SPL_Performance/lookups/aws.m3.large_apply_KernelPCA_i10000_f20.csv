@@ -1,0 +1,25 @@
+testname,mem_mb,cpu_percent,disk_write_kb,cpu_usr_time,time
+aws.m3.large_apply_KernelPCA_i10000_f20,0.0,0.0,0.0,0.0,2016-09-13 17:01:51
+aws.m3.large_apply_KernelPCA_i10000_f20,21.0,0.0,0.0,0.14,2016-09-13 17:01:51
+aws.m3.large_apply_KernelPCA_i10000_f20,39.0,83.4,4.0,0.28,2016-09-13 17:01:51
+aws.m3.large_apply_KernelPCA_i10000_f20,53.0,58.8,4.0,0.38,2016-09-13 17:01:51
+aws.m3.large_apply_KernelPCA_i10000_f20,72.0,98.6,4.0,0.57,2016-09-13 17:01:52
+aws.m3.large_apply_KernelPCA_i10000_f20,112.0,100.7,4.0,0.75,2016-09-13 17:01:52
+aws.m3.large_apply_KernelPCA_i10000_f20,112.0,97.2,4.0,0.91,2016-09-13 17:01:52
+aws.m3.large_apply_KernelPCA_i10000_f20,112.0,100.4,4.0,1.11,2016-09-13 17:01:52
+aws.m3.large_apply_KernelPCA_i10000_f20,74.0,94.0,4.0,1.25,2016-09-13 17:01:53
+aws.m3.large_apply_KernelPCA_i10000_f20,112.0,96.4,4.0,1.45,2016-09-13 17:01:53
+aws.m3.large_apply_KernelPCA_i10000_f20,81.0,97.8,4.0,1.59,2016-09-13 17:01:53
+aws.m3.large_apply_KernelPCA_i10000_f20,126.0,99.2,4.0,1.79,2016-09-13 17:01:53
+aws.m3.large_apply_KernelPCA_i10000_f20,112.0,100.1,4.0,1.92,2016-09-13 17:01:54
+aws.m3.large_apply_KernelPCA_i10000_f20,182.0,97.5,4.0,2.1,2016-09-13 17:01:54
+aws.m3.large_apply_KernelPCA_i10000_f20,112.0,99.6,4.0,2.27,2016-09-13 17:01:54
+aws.m3.large_apply_KernelPCA_i10000_f20,124.0,97.2,4.0,2.43,2016-09-13 17:01:54
+aws.m3.large_apply_KernelPCA_i10000_f20,112.0,98.2,8.0,2.65,2016-09-13 17:01:55
+aws.m3.large_apply_KernelPCA_i10000_f20,74.0,102.2,8.0,2.8,2016-09-13 17:01:55
+aws.m3.large_apply_KernelPCA_i10000_f20,113.0,100.2,8.0,3.01,2016-09-13 17:01:55
+aws.m3.large_apply_KernelPCA_i10000_f20,112.0,97.3,8.0,3.1,2016-09-13 17:01:55
+aws.m3.large_apply_KernelPCA_i10000_f20,172.0,97.5,8.0,3.3,2016-09-13 17:01:56
+aws.m3.large_apply_KernelPCA_i10000_f20,112.0,98.6,8.0,3.47,2016-09-13 17:01:56
+aws.m3.large_apply_KernelPCA_i10000_f20,124.0,97.4,8.0,3.63,2016-09-13 17:01:56
+aws.m3.large_apply_KernelPCA_i10000_f20,75.0,70.7,8.0,3.79,2016-09-13 17:01:56

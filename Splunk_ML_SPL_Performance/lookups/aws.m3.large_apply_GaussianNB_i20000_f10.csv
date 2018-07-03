@@ -1,0 +1,8 @@
+testname,mem_mb,cpu_percent,disk_write_kb,cpu_usr_time,time
+aws.m3.large_apply_GaussianNB_i20000_f10,0.0,0.0,0.0,0.0,2016-09-10 10:49:05
+aws.m3.large_apply_GaussianNB_i20000_f10,21.0,0.0,0.0,0.14,2016-09-10 10:49:05
+aws.m3.large_apply_GaussianNB_i20000_f10,37.0,79.5,4.0,0.28,2016-09-10 10:49:05
+aws.m3.large_apply_GaussianNB_i20000_f10,37.0,0.0,4.0,0.28,2016-09-10 10:49:06
+aws.m3.large_apply_GaussianNB_i20000_f10,54.0,93.8,4.0,0.47,2016-09-10 10:49:06
+aws.m3.large_apply_GaussianNB_i20000_f10,74.0,99.1,4.0,0.62,2016-09-10 10:49:06
+aws.m3.large_apply_GaussianNB_i20000_f10,66.0,75.0,4.0,0.78,2016-09-10 10:49:06

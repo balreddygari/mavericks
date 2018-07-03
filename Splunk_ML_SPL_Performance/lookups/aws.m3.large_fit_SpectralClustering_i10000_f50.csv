@@ -1,0 +1,15 @@
+testname,mem_mb,cpu_percent,disk_write_kb,cpu_usr_time,time
+aws.m3.large_fit_SpectralClustering_i10000_f50,0.0,0.0,0.0,0.0,2016-09-08 21:12:40
+aws.m3.large_fit_SpectralClustering_i10000_f50,21.0,0.0,0.0,0.15,2016-09-08 21:12:40
+aws.m3.large_fit_SpectralClustering_i10000_f50,43.0,94.2,0.0,0.34,2016-09-08 21:12:41
+aws.m3.large_fit_SpectralClustering_i10000_f50,54.0,87.1,0.0,0.52,2016-09-08 21:12:41
+aws.m3.large_fit_SpectralClustering_i10000_f50,69.0,43.8,0.0,0.58,2016-09-08 21:12:41
+aws.m3.large_fit_SpectralClustering_i10000_f50,120.0,96.3,4.0,0.74,2016-09-08 21:12:41
+aws.m3.large_fit_SpectralClustering_i10000_f50,179.0,98.4,4.0,0.92,2016-09-08 21:12:42
+aws.m3.large_fit_SpectralClustering_i10000_f50,161.0,97.1,4.0,1.03,2016-09-08 21:12:42
+aws.m3.large_fit_SpectralClustering_i10000_f50,210.0,100.1,4.0,1.23,2016-09-08 21:12:42
+aws.m3.large_fit_SpectralClustering_i10000_f50,210.0,99.9,4.0,1.48,2016-09-08 21:12:42
+aws.m3.large_fit_SpectralClustering_i10000_f50,240.0,88.8,4.0,1.72,2016-09-08 21:12:43
+aws.m3.large_fit_SpectralClustering_i10000_f50,240.0,98.4,4.0,1.97,2016-09-08 21:12:43
+aws.m3.large_fit_SpectralClustering_i10000_f50,240.0,96.2,4.0,2.21,2016-09-08 21:12:43
+aws.m3.large_fit_SpectralClustering_i10000_f50,149.0,98.7,4.0,2.43,2016-09-08 21:12:43

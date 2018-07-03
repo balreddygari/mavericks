@@ -1,0 +1,7 @@
+testname,mem_mb,cpu_percent,disk_write_kb,cpu_usr_time,time
+aws.m3.large_fit_FieldSelector_i2000_f20,0.0,0.0,0.0,0.0,2016-09-09 03:24:52
+aws.m3.large_fit_FieldSelector_i2000_f20,21.0,0.0,0.0,0.16,2016-09-09 03:24:53
+aws.m3.large_fit_FieldSelector_i2000_f20,42.0,94.1,4.0,0.33,2016-09-09 03:24:53
+aws.m3.large_fit_FieldSelector_i2000_f20,59.0,97.8,4.0,0.53,2016-09-09 03:24:53
+aws.m3.large_fit_FieldSelector_i2000_f20,71.0,89.5,8.0,0.7,2016-09-09 03:24:53
+aws.m3.large_fit_FieldSelector_i2000_f20,71.0,39.3,20.0,0.77,2016-09-09 03:24:54

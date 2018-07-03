@@ -1,0 +1,9 @@
+testname,mem_mb,cpu_percent,disk_write_kb,cpu_usr_time,time
+aws.m3.large_fit_Lasso_i5000_f50,0.0,0.0,0.0,0.0,2016-09-08 17:45:08
+aws.m3.large_fit_Lasso_i5000_f50,20.0,0.0,0.0,0.11,2016-09-08 17:45:08
+aws.m3.large_fit_Lasso_i5000_f50,39.0,92.5,4.0,0.28,2016-09-08 17:45:08
+aws.m3.large_fit_Lasso_i5000_f50,54.0,90.3,4.0,0.47,2016-09-08 17:45:08
+aws.m3.large_fit_Lasso_i5000_f50,71.0,73.6,8.0,0.59,2016-09-08 17:45:09
+aws.m3.large_fit_Lasso_i5000_f50,86.0,85.7,8.0,0.79,2016-09-08 17:45:09
+aws.m3.large_fit_Lasso_i5000_f50,91.0,98.7,16.0,1.03,2016-09-08 17:45:09
+aws.m3.large_fit_Lasso_i5000_f50,86.0,8.0,24.0,1.03,2016-09-08 17:45:09

@@ -1,0 +1,214 @@
+[views/hello]
+owner = admin
+version = 7.0.1
+modtime = 1524763401.761377000
+
+[savedsearches/testbucks]
+access = read : [ * ], write : [ * ]
+export = none
+owner = admin
+version = 7.0.1
+modtime = 1524764184.041170000
+
+[views/suman_test]
+owner = admin
+version = 7.0.1
+modtime = 1524852978.915693000
+
+[views/testing]
+owner = admin
+version = 7.0.1
+modtime = 1524855812.310884000
+
+[props/HELLO2]
+owner = admin
+version = 7.0.1
+modtime = 1524856111.864313000
+
+[indexes/sales]
+owner = admin
+version = 7.0.1
+modtime = 1525018182.149177000
+
+[props/crush]
+owner = admin
+version = 7.0.1
+modtime = 1525024965.860845000
+
+[props/HYR]
+owner = admin
+version = 7.0.1
+modtime = 1525061550.577488000
+
+[props/hyr]
+owner = admin
+version = 7.0.1
+modtime = 1525062790.983194000
+
+[transforms/xmlfields]
+export = system
+owner = admin
+version = 7.0.1
+modtime = 1525098317.112745000
+
+[transforms/bcoatfields]
+export = system
+owner = admin
+version = 7.0.1
+modtime = 1525098349.666491000
+
+[savedsearches/git%20script]
+owner = admin
+version = 7.0.1
+modtime = 1525107060.160080000
+
+[lookups/quarter.csv]
+access = read : [ * ], write : [ * ]
+export = system
+owner = admin
+version = 7.0.1
+modtime = 1525185478.740890000
+
+[lookups/airline.csv]
+access = read : [ * ], write : [ * ]
+export = system
+owner = admin
+version = 7.0.1
+modtime = 1525186163.043990000
+
+[savedsearches/seconds]
+owner = admin
+version = 7.0.1
+modtime = 1525318461.597157000
+
+[props/testing%20cinco]
+owner = admin
+version = 7.0.1
+modtime = 1525584555.634552000
+
+[indexes/mlt]
+owner = admin
+version = 7.0.1
+modtime = 1525654005.680039000
+
+[indexes/web]
+owner = admin
+version = 7.0.1
+modtime = 1525728591.027638000
+
+[indexes/notfound]
+owner = admin
+version = 7.0.1
+modtime = 1525729036.522373000
+
+[indexes/se2]
+owner = admin
+version = 7.0.1
+modtime = 1525729821.979267000
+
+[props/weblogs]
+owner = admin
+version = 7.0.1
+modtime = 1525734376.551430000
+
+[indexes/webindex]
+owner = admin
+version = 7.0.1
+modtime = 1525734396.051198000
+
+[indexes/weblogs]
+owner = admin
+version = 7.0.1
+modtime = 1525744017.096537000
+
+[props/hmm]
+owner = admin
+version = 7.0.1
+modtime = 1525785487.639897000
+
+[props/bashhistory]
+owner = admin
+version = 7.0.1
+modtime = 1525789612.246122000
+
+[indexes/bash]
+owner = admin
+version = 7.0.1
+modtime = 1525789624.388972000
+
+[inputs/monitor%3A%2F%2F%2Ftmp%2Fhistory.txt]
+owner = admin
+version = 7.0.1
+modtime = 1525789808.827128000
+
+[props/configconf]
+owner = admin
+version = 7.0.1
+modtime = 1525793315.889087000
+
+[indexes/config]
+owner = admin
+version = 7.0.1
+modtime = 1525793330.740590000
+
+[inputs/monitor%3A%2F%2F%2FVolumes%2Fsplunk%2FApplications%2FSplunk%2Fetc%2Fapps%2Fse2%2Flocal%2Fprops.conf]
+owner = admin
+version = 7.0.1
+modtime = 1525793334.568772000
+
+[eventtypes/ossec-data-eventtype]
+access = read : [ * ], write : [ admin ]
+export = system
+owner = admin
+version = 7.0.1
+modtime = 1526314827.677677000
+
+[tags/eventtype%3Dossec-data-eventtype]
+access = read : [ * ], write : [ admin ]
+export = system
+owner = admin
+version = 7.0.1
+modtime = 1526314827.701512000
+
+[props/cis%20indx]
+owner = admin
+version = 7.0.1
+modtime = 1526586308.891123000
+
+[props/networkchinta]
+owner = admin
+version = 7.0.1
+modtime = 1526614723.236634000
+
+[props/epwf]
+owner = admin
+version = 7.0.1
+modtime = 1526943119.096021000
+
+[transforms/stl]
+version = 7.0.1
+modtime = 1527001497.043305000
+
+[nav/default]
+version = 7.0.1
+modtime = 1527014764.587660000
+
+[props/dan_json]
+owner = admin
+version = 7.0.1
+modtime = 1527023961.484254000
+
+[props/ipslog]
+owner = admin
+version = 7.0.2
+modtime = 1529442095.727750000
+
+[props/obs]
+owner = admin
+version = 7.0.2
+modtime = 1529556723.545252000
+
+[indexes/chicha]
+owner = admin
+version = 7.0.2
+modtime = 1529556730.821300000

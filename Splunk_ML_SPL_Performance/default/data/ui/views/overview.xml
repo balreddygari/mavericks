@@ -1,0 +1,158 @@
+<form>
+  <label>Overview</label>
+  <row>
+    <panel>
+      <html src="html/welcome.html">
+            </html>
+    </panel>
+  </row>
+  <row>
+    <panel>
+        <html>
+            <h1>ML-SPL Performance Results</h1>
+            <p>To view the performance results of an algorithm, select a Command below (either fit or apply), choose an Algorithm, and then click “Retrieve Algoritm Results”.</p>
+
+            <p>To view the performance results of a single test run, further select a Number of Inputs and a Number of Fields, and then click “Retrieve Test Run Results”.</p>
+        </html>
+    </panel>
+  </row>
+  <row>
+    <panel>
+    <title>Algorithm Selection</title>
+      <input type="dropdown" token="varCommand" id="algo_field1" searchWhenChanged="true">
+        <label>Command :</label>
+        <search>
+            <query>| inputlookup mlspl_perf_result.csv | stats count by command | fields command | sort -command</query>
+        </search>
+        <fieldForLabel>command</fieldForLabel>
+        <fieldForValue>command</fieldForValue>
+        <selectFirstChoice>true</selectFirstChoice>
+      </input>
+      <input type="dropdown" token="varAlgorithm" id="algo_field2" searchWhenChanged="true">
+        <label>Algorithm :</label>
+        <search>
+            <query>| inputlookup mlspl_perf_result.csv | where command="$varCommand$" | stats count by algo | fields algo</query>
+        </search>
+        <fieldForLabel>algo</fieldForLabel>
+        <fieldForValue>algo</fieldForValue>
+        <selectFirstChoice>true</selectFirstChoice>
+      </input>
+      <html>
+        <a id="viewBtn1" class="btn btn-primary" href="ml_spl_performance?form.varCommand=$varCommand$&amp;form.varAlogirthm=$varAlgorithm$" target="_blank">Retrieve Algorithm Results</a>
+      </html>
+    </panel>
+
+  </row>
+  <row>
+
+    <panel>
+    <title>Test Case Selection</title>
+      <input type="dropdown" token="varCommand" id="field1" searchWhenChanged="true">
+        <label>Command :</label>
+        <search>
+            <query>| inputlookup mlspl_perf_result.csv | stats count by command | fields command | sort -command</query>
+        </search>
+        <fieldForLabel>command</fieldForLabel>
+        <fieldForValue>command</fieldForValue>
+        <selectFirstChoice>true</selectFirstChoice>
+      </input>
+      <input type="dropdown" token="varAlgorithm" id="field2" searchWhenChanged="true">
+        <label>Algorithm :</label>
+        <search>
+            <query>| inputlookup mlspl_perf_result.csv | where command="$varCommand$" | stats count by algo | fields algo</query>
+        </search>
+        <fieldForLabel>algo</fieldForLabel>
+        <fieldForValue>algo</fieldForValue>
+        <selectFirstChoice>true</selectFirstChoice>
+      </input>
+      <input type="dropdown" token="varNumInputs" id="field3" searchWhenChanged="true">
+        <label>Number of Inputs :</label>
+        <search>
+            <query>| inputlookup mlspl_perf_result.csv | where command="$varCommand$" AND algo="$varAlgorithm$" | stats count by num_inputs | sort num_inputs | fields num_inputs </query>
+        </search>
+        <fieldForLabel>num_inputs</fieldForLabel>
+        <fieldForValue>num_inputs</fieldForValue>
+        <selectFirstChoice>true</selectFirstChoice>
+      </input>
+      <input type="dropdown" token="varNumFields" id="field4" searchWhenChanged="true">
+        <label>Number of Fields :</label>
+        <search>
+            <query>| inputlookup mlspl_perf_result.csv | where command="$varCommand$" AND algo="$varAlgorithm$" AND num_inputs="$varNumInputs$" | stats count by num_features | fields num_features</query>
+        </search>
+        <fieldForLabel>num_features</fieldForLabel>
+        <fieldForValue>num_features</fieldForValue>
+        <selectFirstChoice>true</selectFirstChoice>
+      </input>
+      <html>
+        <a id="viewBtn2" class="btn btn-primary" href="ml_spl_single_job?form.varTestName=aws.m3.large_$varCommand$_$varAlgorithm$_i$varNumInputs$_f$varNumFields$" target="_blank">Retrieve Test Run Results</a>
+      </html>
+    </panel>
+  </row>
+  <row>
+    <panel depends="$varCommand$, $varAlgorithm$, $varNumInputs$, $varNumFields$">
+      <title>Single Job Stats</title>
+      <table>
+        <search>
+          <query>| inputlookup mlspl_perf_result.csv | where command="$varCommand$" AND algo="$varAlgorithm$" AND num_features=$varNumFields$ AND num_inputs=$varNumInputs$ | eval "Job Completion"=if(result_message=="Good Job", "Successful", "Failed") | rename command_time(sec) AS "Command Time (sec)" | rename cpu_percent(%) AS "Max CPU Percent (%)" | rename cpu_time(sec) as "Total CPU Time (sec)" | rename memory(mb) as "Max Memory (MB)" | rename disk_write(kb) as "Disk Write (KB)" | table "Job Completion" "Command Time (sec)" "Max CPU Percent (%)" "Total CPU Time (sec)" "Max Memory (MB)" "Disk Write (KB)" </query>
+        </search>
+        <option name="wrap">true</option>
+        <option name="rowNumbers">false</option>
+        <option name="dataOverlayMode">none</option>
+        <option name="drilldown">row</option>
+        <drilldown>
+          <link target="_blank">/app/Splunk_ML_SPL_Performance/ml_spl_single_job?form.varTestName=aws.m3.large_$varCommand$_$varAlgorithm$_i$varNumInputs$_f$varNumFields$
+          </link>
+        </drilldown>
+      </table>
+    </panel>
+  </row>
+
+  <row>
+    <panel>
+        <html>
+            <h1>Experiment Setting</h1>
+        </html>
+    </panel>
+  </row>
+
+  <row>
+    <panel>
+      <title>Test Metrics</title>
+      <table>
+        <search>
+          <query>| inputlookup test_metrics.csv | table "Metrics" "Meaning" "Collecting Tools"</query>
+        </search>
+        <option name="wrap">true</option>
+        <option name="rowNumbers">true</option>
+        <option name="dataOverlayMode">none</option>
+        <option name="drilldown">none</option>
+      </table>
+    </panel>
+    <panel>
+      <title>Test Environment</title>
+      <table>
+        <search>
+          <query>| inputlookup test_environment.csv | table "Machine" "vCPU" "Mem (GiB)" "SSD Storage (GB)" "OS Version" "MLTK Version" "PSC Version"</query>
+        </search>
+        <option name="wrap">true</option>
+        <option name="rowNumbers">true</option>
+        <option name="dataOverlayMode">none</option>
+        <option name="drilldown">none</option>
+      </table>
+    </panel>
+  </row>
+
+  <row>
+    <panel>
+      <html src="html/content.html">
+            </html>
+    </panel>
+  </row>
+
+  <row>
+    <panel>
+      <html src="html/note.html">
+            </html>
+    </panel>
+  </row>
+</form>

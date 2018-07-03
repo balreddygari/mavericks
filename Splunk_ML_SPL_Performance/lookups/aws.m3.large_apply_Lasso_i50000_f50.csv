@@ -1,0 +1,22 @@
+testname,mem_mb,cpu_percent,disk_write_kb,cpu_usr_time,time
+aws.m3.large_apply_Lasso_i50000_f50,0.0,0.0,0.0,0.0,2016-09-09 07:37:02
+aws.m3.large_apply_Lasso_i50000_f50,21.0,0.0,0.0,0.17,2016-09-09 07:37:02
+aws.m3.large_apply_Lasso_i50000_f50,37.0,63.7,4.0,0.28,2016-09-09 07:37:02
+aws.m3.large_apply_Lasso_i50000_f50,37.0,0.0,4.0,0.28,2016-09-09 07:37:02
+aws.m3.large_apply_Lasso_i50000_f50,37.0,0.0,4.0,0.28,2016-09-09 07:37:03
+aws.m3.large_apply_Lasso_i50000_f50,52.0,35.1,4.0,0.34,2016-09-09 07:37:03
+aws.m3.large_apply_Lasso_i50000_f50,69.0,101.8,4.0,0.54,2016-09-09 07:37:03
+aws.m3.large_apply_Lasso_i50000_f50,104.0,96.0,4.0,0.73,2016-09-09 07:37:03
+aws.m3.large_apply_Lasso_i50000_f50,127.0,98.5,4.0,0.89,2016-09-09 07:37:04
+aws.m3.large_apply_Lasso_i50000_f50,181.0,99.0,4.0,1.02,2016-09-09 07:37:04
+aws.m3.large_apply_Lasso_i50000_f50,165.0,97.2,4.0,1.22,2016-09-09 07:37:04
+aws.m3.large_apply_Lasso_i50000_f50,168.0,102.2,8.0,1.47,2016-09-09 07:37:04
+aws.m3.large_apply_Lasso_i50000_f50,169.0,96.2,8.0,1.71,2016-09-09 07:37:05
+aws.m3.large_apply_Lasso_i50000_f50,172.0,96.2,8.0,1.95,2016-09-09 07:37:05
+aws.m3.large_apply_Lasso_i50000_f50,174.0,100.3,8.0,2.2,2016-09-09 07:37:05
+aws.m3.large_apply_Lasso_i50000_f50,176.0,99.7,8.0,2.44,2016-09-09 07:37:05
+aws.m3.large_apply_Lasso_i50000_f50,85.0,23.9,8.0,2.48,2016-09-09 07:37:06
+aws.m3.large_apply_Lasso_i50000_f50,85.0,0.0,8.0,2.48,2016-09-09 07:37:06
+aws.m3.large_apply_Lasso_i50000_f50,85.0,0.0,8.0,2.48,2016-09-09 07:37:06
+aws.m3.large_apply_Lasso_i50000_f50,85.0,0.0,8.0,2.48,2016-09-09 07:37:06
+aws.m3.large_apply_Lasso_i50000_f50,0.0,0.0,0.0,0.0,2016-09-09 07:37:07

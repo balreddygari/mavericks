@@ -1,0 +1,334 @@
+[props/first_install-too_small]
+owner = nobody
+version = 7.0.1
+modtime = 1524723479.462480000
+
+[props/export_metrics-too_small]
+owner = nobody
+version = 7.0.1
+modtime = 1524723489.430292000
+
+[props/access_combined_no_breaks-too_small]
+owner = admin
+version = 7.0.1
+modtime = 1524723569.592865000
+
+[props/ssl_bcoat-too_small]
+owner = admin
+version = 7.0.1
+modtime = 1524761105.050792000
+
+[props/greendot_f5asm-too_small]
+owner = admin
+version = 7.0.1
+modtime = 1524761719.712369000
+
+[props/rtf-too_small]
+owner = admin
+version = 7.0.1
+modtime = 1524855874.011317000
+
+[props/bcoat_proxysg_logs-too_small]
+owner = admin
+version = 7.0.1
+modtime = 1525021543.958753000
+
+[props/xml-too_small]
+owner = admin
+version = 7.0.1
+modtime = 1525028268.809533000
+
+[props/backed-up-too_small]
+owner = admin
+version = 7.0.1
+modtime = 1525037952.563965000
+
+[props/unknown]
+owner = admin
+version = 7.0.1
+modtime = 1525055579.527307000
+
+[sourcetypes/LDAP_Log.zip%3A.%2FD1.txt_Sun_Apr_29_22%3A32%3A59_2018_648274389]
+owner = admin
+version = 7.0.1
+modtime = 1525055579.664772000
+
+[props/licensealert]
+owner = nobody
+version = 7.0.1
+modtime = 1525056705.784547000
+
+[sourcetypes/%2FVolumes%2Fsplunk%2FApplications%2FSplunk%2Fvar%2Flog%2Fsplunk%2Flicensealert.log_Sun_Apr_29_22%3A51%3A45_2018_1554315720]
+owner = nobody
+version = 7.0.1
+modtime = 1525056705.980248000
+
+[props/python_modular_input-too_small]
+owner = nobody
+version = 7.0.1
+modtime = 1525056706.003190000
+
+[props/msftapps_exchange_configured_handler-too_small]
+owner = nobody
+version = 7.0.1
+modtime = 1525056707.396960000
+
+[props/python_modular_input-2]
+owner = nobody
+version = 7.0.1
+modtime = 1525094662.600360000
+
+[sourcetypes/%2FVolumes%2Fsplunk%2FApplications%2FSplunk%2Fvar%2Flog%2Fsplunk%2Fpython_modular_input.log_Mon_Apr_30_09%3A24%3A22_2018_1278335630]
+owner = nobody
+version = 7.0.1
+modtime = 1525094662.713617000
+
+[props/mlspl-too_small]
+owner = nobody
+version = 7.0.1
+modtime = 1525115624.255188000
+
+[props/mlspl_watchdog-too_small]
+owner = nobody
+version = 7.0.1
+modtime = 1525116440.955560000
+
+[props/csv-too_small]
+owner = admin
+version = 7.0.1
+modtime = 1525185306.825995000
+
+[props/mlspl-3]
+owner = nobody
+version = 7.0.1
+modtime = 1525202193.571462000
+
+[sourcetypes/%2FVolumes%2Fsplunk%2FApplications%2FSplunk%2Fvar%2Flog%2Fsplunk%2Fmlspl.log_Tue_May__1_15%3A16%3A33_2018_987268046]
+owner = nobody
+version = 7.0.1
+modtime = 1525202193.698130000
+
+[sourcetypes/%2FVolumes%2Fsplunk%2FApplications%2FSplunk%2Fvar%2Flog%2Fsplunk%2Fmlspl.log_Tue_May__1_15%3A16%3A33_2018_1731854641]
+owner = nobody
+version = 7.0.1
+modtime = 1525202193.822840000
+
+[props/receive_log-too_small]
+owner = admin
+version = 7.0.1
+modtime = 1525455721.286337000
+
+[props/shuttle_log]
+owner = admin
+version = 7.0.1
+modtime = 1525455721.637487000
+
+[sourcetypes/27361.zip%3A.%2F27361%2FLOG%2Fshuttle_log.20171110_Fri_May__4_13%3A42%3A01_2018_1591528654]
+owner = admin
+version = 7.0.1
+modtime = 1525455721.779691000
+
+[props/mlspl_watchdog-2]
+owner = nobody
+version = 7.0.1
+modtime = 1525656467.071067000
+
+[sourcetypes/%2FVolumes%2Fsplunk%2FApplications%2FSplunk%2Fvar%2Flog%2Fsplunk%2Fmlspl_watchdog.log_Sun_May__6_21%3A27%3A47_2018_1894358207]
+owner = nobody
+version = 7.0.1
+modtime = 1525656467.237807000
+
+[props/unix_configured_handler-too_small]
+owner = nobody
+version = 7.0.1
+modtime = 1525697725.102878000
+
+[props/scHeadlinesHandler-too_small]
+owner = nobody
+version = 7.0.1
+modtime = 1525697871.909872000
+
+[props/paladin-too_small]
+owner = nobody
+version = 7.0.1
+modtime = 1525697871.937057000
+
+[props/splunk-too_small]
+owner = nobody
+version = 7.0.1
+modtime = 1525731242.258692000
+
+[props/conf-too_small]
+owner = admin
+version = 7.0.1
+modtime = 1525793124.444928000
+
+[props/saas_app_aws-too_small]
+owner = nobody
+version = 7.0.1
+modtime = 1525900107.163727000
+
+[props/machine_learning-too_small]
+owner = nobody
+version = 7.0.1
+modtime = 1526000405.042015000
+
+[props/saas_app_aws-2]
+owner = nobody
+version = 7.0.1
+modtime = 1526229582.259023000
+
+[sourcetypes/%2FVolumes%2Fsplunk%2FApplications%2FSplunk%2Fvar%2Flog%2Fsplunk%2Fsaas_app_aws.log_Sun_May_13_12%3A39%3A42_2018_730152063]
+owner = nobody
+version = 7.0.1
+modtime = 1526229582.470508000
+
+[props/unix_installer-too_small]
+owner = nobody
+version = 7.0.1
+modtime = 1526229582.596342000
+
+[props/eventgen-process]
+owner = nobody
+version = 7.0.1
+modtime = 1526314223.962613000
+
+[sourcetypes/%2FVolumes%2Fsplunk%2FApplications%2FSplunk%2Fvar%2Flog%2Fsplunk%2Feventgen-process.log_Mon_May_14_12%3A10%3A24_2018_937709069]
+owner = nobody
+version = 7.0.1
+modtime = 1526314224.468277000
+
+[props/eventgen-listener-process-too_small]
+owner = nobody
+version = 7.0.1
+modtime = 1526314224.534248000
+
+[props/eventgen-errors-too_small]
+owner = nobody
+version = 7.0.1
+modtime = 1526314224.604184000
+
+[props/splunk-hec-handler-too_small]
+owner = nobody
+version = 7.0.1
+modtime = 1526314224.727129000
+
+[props/eventgen-process-too_small]
+owner = nobody
+version = 7.0.1
+modtime = 1526523126.262320000
+
+[props/eventgen-main-too_small]
+owner = nobody
+version = 7.0.1
+modtime = 1526524580.444894000
+
+[props/Sample%20Network%20metrics-too_small]
+owner = admin
+version = 7.0.1
+modtime = 1526614705.769530000
+
+[props/ta_github_github_api_repos_commits]
+owner = nobody
+version = 7.0.1
+modtime = 1526901997.696388000
+
+[sourcetypes/%2FVolumes%2Fsplunk%2FApplications%2FSplunk%2Fvar%2Flog%2Fsplunk%2Fta_github_github_api_repos_commits.log_Mon_May_21_07%3A26%3A37_2018_1549608342]
+owner = nobody
+version = 7.0.1
+modtime = 1526901997.902555000
+
+[props/ta_github_github_api_repos_stats-too_small]
+owner = nobody
+version = 7.0.1
+modtime = 1526901998.568590000
+
+[props/ta_github_github_api_repos_issues-too_small]
+owner = nobody
+version = 7.0.1
+modtime = 1526901998.769464000
+
+[props/modinput_eventgen-too_small]
+owner = nobody
+version = 7.0.1
+modtime = 1526902161.095643000
+
+[props/eventgen-errors-2]
+owner = nobody
+version = 7.0.1
+modtime = 1526902161.884595000
+
+[sourcetypes/%2FVolumes%2Fsplunk%2FApplications%2FSplunk%2Fvar%2Flog%2Fsplunk%2Feventgen-errors.log_Mon_May_21_07%3A29%3A21_2018_914601672]
+owner = nobody
+version = 7.0.1
+modtime = 1526902162.059217000
+
+[props/eventgen-main-2]
+owner = nobody
+version = 7.0.1
+modtime = 1526902162.392480000
+
+[sourcetypes/%2FVolumes%2Fsplunk%2FApplications%2FSplunk%2Fvar%2Flog%2Fsplunk%2Feventgen-main.log_Mon_May_21_07%3A29%3A22_2018_1473447626]
+owner = nobody
+version = 7.0.1
+modtime = 1526902162.567087000
+
+[props/testslack-too_small]
+owner = admin
+version = 7.0.1
+modtime = 1527014344.670208000
+
+[props/danieltest-too_small]
+owner = admin
+version = 7.0.1
+modtime = 1527017103.766555000
+
+[props/splunk_archiver-too_small]
+owner = nobody
+version = 7.0.2
+modtime = 1528860116.541270000
+
+[props/splunk_ta_aws_cloudwatch_logs-too_small]
+owner = nobody
+version = 7.0.2
+modtime = 1529388500.355473000
+
+[props/splunk_ta_aws_config_rule-too_small]
+owner = nobody
+version = 7.0.2
+modtime = 1529388500.593207000
+
+[props/splunk_ta_aws_description-too_small]
+owner = nobody
+version = 7.0.2
+modtime = 1529388500.749857000
+
+[props/splunk_ta_aws_sqs-too_small]
+owner = nobody
+version = 7.0.2
+modtime = 1529388500.772228000
+
+[props/splunk_ta_aws_kinesis-too_small]
+owner = nobody
+version = 7.0.2
+modtime = 1529388500.895692000
+
+[props/splunk_ta_aws_aws_billing_cur_Billing-too_small]
+owner = nobody
+version = 7.0.2
+modtime = 1529388500.915858000
+
+[props/splunk_ta_aws_cloudwatch-too_small]
+owner = nobody
+version = 7.0.2
+modtime = 1529388500.937030000
+
+[props/splunk_ta_aws_inspector-too_small]
+owner = nobody
+version = 7.0.2
+modtime = 1529388500.956354000
+
+[props/bcbs-too_small]
+owner = admin
+version = 7.0.2
+modtime = 1530025443.064024000

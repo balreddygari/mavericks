@@ -1,0 +1,9 @@
+testname,mem_mb,cpu_percent,disk_write_kb,cpu_usr_time,time
+aws.m3.large_apply_BernoulliNB_i10000_f50,0.0,0.0,0.0,0.0,2016-09-10 08:51:55
+aws.m3.large_apply_BernoulliNB_i10000_f50,21.0,0.0,0.0,0.14,2016-09-10 08:51:55
+aws.m3.large_apply_BernoulliNB_i10000_f50,38.0,78.8,4.0,0.28,2016-09-10 08:51:56
+aws.m3.large_apply_BernoulliNB_i10000_f50,50.0,51.0,4.0,0.37,2016-09-10 08:51:56
+aws.m3.large_apply_BernoulliNB_i10000_f50,73.0,94.5,4.0,0.54,2016-09-10 08:51:56
+aws.m3.large_apply_BernoulliNB_i10000_f50,84.0,99.0,4.0,0.71,2016-09-10 08:51:56
+aws.m3.large_apply_BernoulliNB_i10000_f50,86.0,85.3,4.0,0.93,2016-09-10 08:51:57
+aws.m3.large_apply_BernoulliNB_i10000_f50,73.0,15.8,8.0,0.96,2016-09-10 08:51:57

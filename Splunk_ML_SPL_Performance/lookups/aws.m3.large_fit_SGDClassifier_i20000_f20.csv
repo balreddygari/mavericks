@@ -1,0 +1,16 @@
+testname,mem_mb,cpu_percent,disk_write_kb,cpu_usr_time,time
+aws.m3.large_fit_SGDClassifier_i20000_f20,0.0,0.0,0.0,0.0,2016-09-08 20:54:18
+aws.m3.large_fit_SGDClassifier_i20000_f20,21.0,0.0,0.0,0.14,2016-09-08 20:54:18
+aws.m3.large_fit_SGDClassifier_i20000_f20,42.0,98.3,0.0,0.32,2016-09-08 20:54:18
+aws.m3.large_fit_SGDClassifier_i20000_f20,60.0,97.5,0.0,0.52,2016-09-08 20:54:19
+aws.m3.large_fit_SGDClassifier_i20000_f20,61.0,4.0,4.0,0.53,2016-09-08 20:54:19
+aws.m3.large_fit_SGDClassifier_i20000_f20,93.0,79.6,4.0,0.67,2016-09-08 20:54:19
+aws.m3.large_fit_SGDClassifier_i20000_f20,148.0,97.7,4.0,0.81,2016-09-08 20:54:19
+aws.m3.large_fit_SGDClassifier_i20000_f20,153.0,102.7,4.0,1.06,2016-09-08 20:54:20
+aws.m3.large_fit_SGDClassifier_i20000_f20,154.0,99.1,4.0,1.31,2016-09-08 20:54:20
+aws.m3.large_fit_SGDClassifier_i20000_f20,156.0,99.3,4.0,1.55,2016-09-08 20:54:20
+aws.m3.large_fit_SGDClassifier_i20000_f20,132.0,19.9,16.0,1.56,2016-09-08 20:54:20
+aws.m3.large_fit_SGDClassifier_i20000_f20,132.0,0.0,16.0,1.56,2016-09-08 20:54:21
+aws.m3.large_fit_SGDClassifier_i20000_f20,132.0,0.0,16.0,1.56,2016-09-08 20:54:21
+aws.m3.large_fit_SGDClassifier_i20000_f20,132.0,0.0,16.0,1.56,2016-09-08 20:54:21
+aws.m3.large_fit_SGDClassifier_i20000_f20,0.0,0.0,0.0,0.0,2016-09-08 20:54:21

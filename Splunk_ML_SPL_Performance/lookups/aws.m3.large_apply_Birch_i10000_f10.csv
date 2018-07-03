@@ -1,0 +1,20 @@
+testname,mem_mb,cpu_percent,disk_write_kb,cpu_usr_time,time
+aws.m3.large_apply_Birch_i10000_f10,0.0,0.0,0.0,0.0,2016-09-10 20:55:37
+aws.m3.large_apply_Birch_i10000_f10,21.0,0.0,0.0,0.1,2016-09-10 20:55:37
+aws.m3.large_apply_Birch_i10000_f10,37.0,94.4,0.0,0.27,2016-09-10 20:55:38
+aws.m3.large_apply_Birch_i10000_f10,47.0,48.6,4.0,0.37,2016-09-10 20:55:38
+aws.m3.large_apply_Birch_i10000_f10,63.0,101.6,4.0,0.57,2016-09-10 20:55:38
+aws.m3.large_apply_Birch_i10000_f10,72.0,100.6,4.0,0.8,2016-09-10 20:55:38
+aws.m3.large_apply_Birch_i10000_f10,73.0,96.6,4.0,1.05,2016-09-10 20:55:39
+aws.m3.large_apply_Birch_i10000_f10,73.0,100.5,4.0,1.31,2016-09-10 20:55:39
+aws.m3.large_apply_Birch_i10000_f10,74.0,100.5,4.0,1.57,2016-09-10 20:55:39
+aws.m3.large_apply_Birch_i10000_f10,75.0,100.5,4.0,1.83,2016-09-10 20:55:40
+aws.m3.large_apply_Birch_i10000_f10,76.0,100.4,4.0,2.08,2016-09-10 20:55:40
+aws.m3.large_apply_Birch_i10000_f10,77.0,98.4,4.0,2.39,2016-09-10 20:55:40
+aws.m3.large_apply_Birch_i10000_f10,77.0,96.6,4.0,2.64,2016-09-10 20:55:40
+aws.m3.large_apply_Birch_i10000_f10,78.0,101.9,4.0,2.92,2016-09-10 20:55:41
+aws.m3.large_apply_Birch_i10000_f10,79.0,100.6,4.0,3.18,2016-09-10 20:55:41
+aws.m3.large_apply_Birch_i10000_f10,80.0,100.3,4.0,3.44,2016-09-10 20:55:41
+aws.m3.large_apply_Birch_i10000_f10,158.0,98.2,4.0,3.55,2016-09-10 20:55:41
+aws.m3.large_apply_Birch_i10000_f10,205.0,98.9,4.0,3.71,2016-09-10 20:55:42
+aws.m3.large_apply_Birch_i10000_f10,83.0,64.4,12.0,3.84,2016-09-10 20:55:42

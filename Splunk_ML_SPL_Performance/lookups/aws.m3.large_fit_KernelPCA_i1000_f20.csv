@@ -1,0 +1,7 @@
+testname,mem_mb,cpu_percent,disk_write_kb,cpu_usr_time,time
+aws.m3.large_fit_KernelPCA_i1000_f20,0.0,0.0,0.0,0.0,2016-09-13 16:51:44
+aws.m3.large_fit_KernelPCA_i1000_f20,21.0,0.0,0.0,0.15,2016-09-13 16:51:45
+aws.m3.large_fit_KernelPCA_i1000_f20,42.0,98.1,4.0,0.33,2016-09-13 16:51:45
+aws.m3.large_fit_KernelPCA_i1000_f20,59.0,98.3,4.0,0.53,2016-09-13 16:51:45
+aws.m3.large_fit_KernelPCA_i1000_f20,68.0,88.3,8.0,0.67,2016-09-13 16:51:45
+aws.m3.large_fit_KernelPCA_i1000_f20,71.0,70.2,256.0,0.79,2016-09-13 16:51:46

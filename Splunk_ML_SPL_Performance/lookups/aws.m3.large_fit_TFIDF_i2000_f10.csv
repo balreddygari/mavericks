@@ -1,0 +1,6 @@
+testname,mem_mb,cpu_percent,disk_write_kb,cpu_usr_time,time
+aws.m3.large_fit_TFIDF_i2000_f10,0.0,0.0,0.0,0.0,2016-09-09 03:08:59
+aws.m3.large_fit_TFIDF_i2000_f10,21.0,0.0,0.0,0.14,2016-09-09 03:08:59
+aws.m3.large_fit_TFIDF_i2000_f10,41.0,98.9,0.0,0.32,2016-09-09 03:08:59
+aws.m3.large_fit_TFIDF_i2000_f10,61.0,94.0,4.0,0.55,2016-09-09 03:09:00
+aws.m3.large_fit_TFIDF_i2000_f10,65.0,59.1,24.0,0.66,2016-09-09 03:09:00

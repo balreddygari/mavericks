@@ -1,0 +1,9 @@
+<nav search_view="search" color="#000000">
+  <view name="security_intelligence_data_fabric" default='true' />
+  <view name="architecture" />
+  <view name="security_use_cases" />
+  <view name="data_source_mapping_by_domain_next" />
+  <view name="security_information_sources" />
+  <view name="dashboards" />
+  <view name="search" />
+</nav>

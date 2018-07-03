@@ -1,0 +1,6 @@
+testname,mem_mb,cpu_percent,disk_write_kb,cpu_usr_time,time
+aws.m3.large_fit_DBSCAN_i1000_f50,0.0,0.0,0.0,0.0,2016-09-08 21:59:39
+aws.m3.large_fit_DBSCAN_i1000_f50,20.0,0.0,0.0,0.11,2016-09-08 21:59:39
+aws.m3.large_fit_DBSCAN_i1000_f50,41.0,98.6,4.0,0.28,2016-09-08 21:59:39
+aws.m3.large_fit_DBSCAN_i1000_f50,57.0,98.0,4.0,0.47,2016-09-08 21:59:39
+aws.m3.large_fit_DBSCAN_i1000_f50,68.0,71.7,8.0,0.6,2016-09-08 21:59:40

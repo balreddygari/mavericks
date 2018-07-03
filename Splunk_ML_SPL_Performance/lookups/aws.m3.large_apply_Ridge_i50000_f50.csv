@@ -1,0 +1,22 @@
+testname,mem_mb,cpu_percent,disk_write_kb,cpu_usr_time,time
+aws.m3.large_apply_Ridge_i50000_f50,0.0,0.0,0.0,0.0,2016-09-09 09:38:09
+aws.m3.large_apply_Ridge_i50000_f50,21.0,0.0,0.0,0.13,2016-09-09 09:38:09
+aws.m3.large_apply_Ridge_i50000_f50,38.0,86.7,4.0,0.29,2016-09-09 09:38:10
+aws.m3.large_apply_Ridge_i50000_f50,38.0,0.0,4.0,0.29,2016-09-09 09:38:10
+aws.m3.large_apply_Ridge_i50000_f50,38.0,0.0,4.0,0.29,2016-09-09 09:38:10
+aws.m3.large_apply_Ridge_i50000_f50,51.0,27.4,4.0,0.34,2016-09-09 09:38:10
+aws.m3.large_apply_Ridge_i50000_f50,68.0,101.5,4.0,0.55,2016-09-09 09:38:11
+aws.m3.large_apply_Ridge_i50000_f50,104.0,99.2,4.0,0.74,2016-09-09 09:38:11
+aws.m3.large_apply_Ridge_i50000_f50,149.0,98.2,4.0,0.93,2016-09-09 09:38:11
+aws.m3.large_apply_Ridge_i50000_f50,181.0,98.0,4.0,1.04,2016-09-09 09:38:11
+aws.m3.large_apply_Ridge_i50000_f50,165.0,103.1,4.0,1.24,2016-09-09 09:38:12
+aws.m3.large_apply_Ridge_i50000_f50,167.0,99.0,4.0,1.49,2016-09-09 09:38:12
+aws.m3.large_apply_Ridge_i50000_f50,169.0,99.1,4.0,1.73,2016-09-09 09:38:12
+aws.m3.large_apply_Ridge_i50000_f50,171.0,97.6,4.0,1.98,2016-09-09 09:38:13
+aws.m3.large_apply_Ridge_i50000_f50,173.0,99.3,4.0,2.23,2016-09-09 09:38:13
+aws.m3.large_apply_Ridge_i50000_f50,175.0,99.1,8.0,2.48,2016-09-09 09:38:13
+aws.m3.large_apply_Ridge_i50000_f50,85.0,39.6,8.0,2.55,2016-09-09 09:38:13
+aws.m3.large_apply_Ridge_i50000_f50,85.0,0.0,8.0,2.55,2016-09-09 09:38:14
+aws.m3.large_apply_Ridge_i50000_f50,85.0,0.0,8.0,2.55,2016-09-09 09:38:14
+aws.m3.large_apply_Ridge_i50000_f50,85.0,0.0,8.0,2.55,2016-09-09 09:38:14
+aws.m3.large_apply_Ridge_i50000_f50,0.0,0.0,0.0,0.0,2016-09-09 09:38:14

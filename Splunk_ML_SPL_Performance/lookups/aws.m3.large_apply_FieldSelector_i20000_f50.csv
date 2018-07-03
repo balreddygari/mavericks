@@ -1,0 +1,12 @@
+testname,mem_mb,cpu_percent,disk_write_kb,cpu_usr_time,time
+aws.m3.large_apply_FieldSelector_i20000_f50,0.0,0.0,0.0,0.0,2016-09-11 13:46:15
+aws.m3.large_apply_FieldSelector_i20000_f50,21.0,0.0,0.0,0.13,2016-09-11 13:46:15
+aws.m3.large_apply_FieldSelector_i20000_f50,38.0,79.2,4.0,0.27,2016-09-11 13:46:15
+aws.m3.large_apply_FieldSelector_i20000_f50,43.0,6.6,4.0,0.28,2016-09-11 13:46:16
+aws.m3.large_apply_FieldSelector_i20000_f50,59.0,97.5,4.0,0.49,2016-09-11 13:46:16
+aws.m3.large_apply_FieldSelector_i20000_f50,94.0,99.9,4.0,0.67,2016-09-11 13:46:16
+aws.m3.large_apply_FieldSelector_i20000_f50,105.0,99.1,4.0,0.84,2016-09-11 13:46:16
+aws.m3.large_apply_FieldSelector_i20000_f50,107.0,99.1,4.0,1.09,2016-09-11 13:46:17
+aws.m3.large_apply_FieldSelector_i20000_f50,109.0,99.2,4.0,1.34,2016-09-11 13:46:17
+aws.m3.large_apply_FieldSelector_i20000_f50,80.0,7.9,4.0,1.35,2016-09-11 13:46:17
+aws.m3.large_apply_FieldSelector_i20000_f50,0.0,0.0,0.0,0.0,2016-09-11 13:46:17

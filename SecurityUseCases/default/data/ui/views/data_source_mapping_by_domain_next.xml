@@ -1,0 +1,65 @@
+<form>
+  <label>Security Data Source Mapping by Domain</label>
+  <fieldset submitButton="false" autoRun="true">
+    <input type="checkbox" token="domain_token">
+      <label>Security Domain</label>
+      <fieldForLabel>domain</fieldForLabel>
+      <fieldForValue>domain</fieldForValue>
+      <search>
+        <query>| inputlookup securitymapping_hl.csv | search "High/Low View"=High | stats count by "Security Domain" | rename "Security Domain" AS domain</query>
+      </search>
+      <prefix>(</prefix>
+      <suffix>)</suffix>
+      <valuePrefix>("Security Domain"="</valuePrefix>
+      <valueSuffix>")</valueSuffix>
+      <delimiter> OR </delimiter>
+      <default>Access,Asset/Identity,EndPoint,Endpoint,Network,Threat Intelligence,End-Point</default>
+    </input>
+    <input type="dropdown" token="level_token">
+      <label>Level of Detail:</label>
+      <fieldForLabel>level</fieldForLabel>
+      <fieldForValue>level</fieldForValue>
+      <search>
+        <query>| inputlookup securitymapping_hl.csv | stats count by "High/Low View" | rename "High/Low View" AS level | sort - level</query>
+      </search>
+      <default>Low</default>
+    </input>
+  </fieldset>
+  <row>
+    <panel>
+      <title>Mapping of Security Domain to potential data sources!</title>
+      <viz type="sankey_diagram_app.sankey_diagram">
+        <search>
+          <query>| inputlookup securitymapping_hl.csv | search "High/Low View"=$level_token$ $domain_token$   | rename "Security Domain" as domain
+| rename "Security Sub-Domain" as subdomain
+| eval domain = if ( subdomain!="*" , subdomain, domain )
+| rename domain as "Security Domain" 
+| table "Security Domain" "Data Sources" count</query>
+          <earliest>0.000</earliest>
+          <sampleRatio>1</sampleRatio>
+        </search>
+      </viz>
+    </panel>
+    <panel>
+      <title>Tabular View of Mapping</title>
+      <table>
+        <search>
+          <query>| inputlookup securitymapping_hl.csv | search "High/Low View"=$level_token$ $domain_token$  | rename "Security Domain" as domain
+| rename "Security Sub-Domain" as subdomain
+| eval domain = if ( subdomain!="*" , subdomain, domain )
+| rename domain as "Security Domain" 
+| table "Security Domain" "Data Sources"</query>
+          <earliest>0.000</earliest>
+          <sampleRatio>1</sampleRatio>
+        </search>
+        <option name="count">20</option>
+        <option name="dataOverlayMode">none</option>
+        <option name="drilldown">cell</option>
+        <option name="percentagesRow">false</option>
+        <option name="rowNumbers">false</option>
+        <option name="totalsRow">false</option>
+        <option name="wrap">true</option>
+      </table>
+    </panel>
+  </row>
+</form>

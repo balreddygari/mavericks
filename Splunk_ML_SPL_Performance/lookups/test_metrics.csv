@@ -1,0 +1,7 @@
+Metrics,Meaning,Collecting Tools
+Job Completion,Whether the query can finish and return results,Splunk REST API
+Command Time,Running time of fit/apply command,Splunk REST API
+Max Memory Use,The peak memory usage,psutil
+Max CPU Use,The peak CPU usage,psutil
+CPU Time,The active CPU running time,psutil
+Disk Write,The amount of data written to disk,psutil

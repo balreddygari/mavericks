@@ -1,0 +1,249 @@
+<form>
+  <label>ML-SPL Performance</label>
+  <description></description>
+  <fieldset submitButton="false" autoRun="true">
+    <input type="dropdown" token="varCommand" id="field1">
+      <label>Command :</label>
+      <populatingSearch fieldForValue="command" fieldForLabel="command">
+        <![CDATA[| inputlookup mlspl_perf_result.csv | stats count by command ]]>
+      </populatingSearch>
+    </input>
+    <input type="dropdown" token="varAlogirthm" id="field2">
+      <label>Algorithm :</label>
+      <populatingSearch fieldForValue="algo" fieldForLabel="algo">
+        <![CDATA[| inputlookup mlspl_perf_result.csv | where command="$varCommand$" | stats count by algo | fields algo ]]>
+      </populatingSearch>
+    </input>
+  </fieldset>
+  <row>
+    <panel>
+      <title>Job is Successful?</title>
+      <chart>
+        <search>
+          <query>| inputlookup mlspl_perf_result.csv  | where command="$varCommand$" | where algo="$varAlogirthm$"  | eval "num_features"="Num of Fields: ".num_features | eval "command_time(sec)"=if('command_time(sec)'&gt;'run_time(sec)', 'run_time(sec)', 'command_time(sec)') | eval "command_time(sec)"=round('command_time(sec)', 1) | eval "cpu_time(sec)"=round('cpu_time(sec)', 1)| eval "cpu_percent(%)"=round('cpu_percent(%)', 0) | table command algo "command_time(sec)" "cpu_time(sec)" "cpu_percent(%)" "disk_write(kb)" "num_features" "num_inputs" "run_time(sec)" "memory(mb)" "result_message" | eval job_success=if(result_message=="Good Job", 1, 0) | chart max("job_success")  by "num_inputs" "num_features"</query>
+        </search>
+        <option name="charting.axisLabelsX.majorLabelStyle.overflowMode">ellipsisNone</option>
+        <option name="charting.axisLabelsX.majorLabelStyle.rotation">0</option>
+        <option name="charting.axisTitleX.text">Number of Events</option>
+        <option name="charting.axisTitleX.visibility">visible</option>
+        <option name="charting.axisTitleY.visibility">visible</option>
+        <option name="charting.axisTitleY2.visibility">visible</option>
+        <option name="charting.axisX.scale">linear</option>
+        <option name="charting.axisY.scale">linear</option>
+        <option name="charting.axisY2.enabled">0</option>
+        <option name="charting.axisY2.scale">inherit</option>
+        <option name="charting.chart">column</option>
+        <option name="charting.chart.bubbleMaximumSize">50</option>
+        <option name="charting.chart.bubbleMinimumSize">10</option>
+        <option name="charting.chart.bubbleSizeBy">area</option>
+        <option name="charting.chart.nullValueMode">gaps</option>
+        <option name="charting.chart.showDataLabels">all</option>
+        <option name="charting.chart.sliceCollapsingThreshold">0.01</option>
+        <option name="charting.chart.stackMode">default</option>
+        <option name="charting.chart.style">shiny</option>
+        <option name="charting.drilldown">all</option>
+        <option name="charting.layout.splitSeries">0</option>
+        <option name="charting.layout.splitSeries.allowIndependentYRanges">0</option>
+        <option name="charting.legend.labelStyle.overflowMode">ellipsisMiddle</option>
+        <option name="charting.legend.placement">bottom</option>
+      </chart>
+    </panel>
+  </row>
+  <row>
+    <panel>
+      <title>Running Time (sec)</title>
+      <chart>
+        <search>
+          <query>| inputlookup mlspl_perf_result.csv | where command="$varCommand$" | where algo="$varAlogirthm$"  | eval "num_features"="Num of Fields: ".num_features | eval "command_time(sec)"=if('command_time(sec)'&gt;'run_time(sec)', 'run_time(sec)', 'command_time(sec)') | eval "command_time(sec)"=round('command_time(sec)', 1) | eval "cpu_time(sec)"=round('cpu_time(sec)', 1)| eval "cpu_percent(%)"=round('cpu_percent(%)', 0) | table command algo "command_time(sec)" "cpu_time(sec)" "cpu_percent(%)" "disk_write(kb)" "num_features" "num_inputs" "run_time(sec)" "memory(mb)" "result_message"  | chart max("command_time(sec)")  by "num_inputs" "num_features"</query>
+        </search>
+        <option name="charting.axisLabelsX.majorLabelStyle.overflowMode">ellipsisNone</option>
+        <option name="charting.axisLabelsX.majorLabelStyle.rotation">0</option>
+        <option name="charting.axisTitleX.text">Number of Events</option>
+        <option name="charting.axisTitleX.visibility">visible</option>
+        <option name="charting.axisTitleY.text">Running Time (sec)</option>
+        <option name="charting.axisTitleY.visibility">visible</option>
+        <option name="charting.axisTitleY2.visibility">visible</option>
+        <option name="charting.axisX.scale">linear</option>
+        <option name="charting.axisY.scale">log</option>
+        <option name="charting.axisY2.enabled">0</option>
+        <option name="charting.axisY2.scale">inherit</option>
+        <option name="charting.chart">column</option>
+        <option name="charting.chart.bubbleMaximumSize">50</option>
+        <option name="charting.chart.bubbleMinimumSize">10</option>
+        <option name="charting.chart.bubbleSizeBy">area</option>
+        <option name="charting.chart.nullValueMode">gaps</option>
+        <option name="charting.chart.showDataLabels">all</option>
+        <option name="charting.chart.sliceCollapsingThreshold">0.01</option>
+        <option name="charting.chart.stackMode">default</option>
+        <option name="charting.chart.style">shiny</option>
+        <option name="charting.drilldown">all</option>
+        <option name="charting.layout.splitSeries">0</option>
+        <option name="charting.layout.splitSeries.allowIndependentYRanges">0</option>
+        <option name="charting.legend.labelStyle.overflowMode">ellipsisMiddle</option>
+        <option name="charting.legend.placement">bottom</option>
+      </chart>
+    </panel>
+  </row>
+  <row>
+    <panel>
+      <title>Max Memory Use (MB)</title>
+      <chart>
+        <search>
+          <query>| inputlookup mlspl_perf_result.csv | where command="$varCommand$" | where algo="$varAlogirthm$"  | eval "num_features"="Num of Fields: ".num_features | eval "command_time(sec)"=if('command_time(sec)'&gt;'run_time(sec)', 'run_time(sec)', 'command_time(sec)') | eval "command_time(sec)"=round('command_time(sec)', 1) | eval "cpu_time(sec)"=round('cpu_time(sec)', 1)| eval "cpu_percent(%)"=round('cpu_percent(%)', 0) | table command algo "command_time(sec)" "cpu_time(sec)" "cpu_percent(%)" "disk_write(kb)" "num_features" "num_inputs" "run_time(sec)" "memory(mb)" "result_message"  | chart max("memory(mb)")  by "num_inputs" "num_features"</query>
+        </search>
+        <option name="charting.axisLabelsX.majorLabelStyle.overflowMode">ellipsisNone</option>
+        <option name="charting.axisLabelsX.majorLabelStyle.rotation">0</option>
+        <option name="charting.axisTitleX.text">Number of Events</option>
+        <option name="charting.axisTitleX.visibility">visible</option>
+        <option name="charting.axisTitleY.text">Memory (MB)</option>
+        <option name="charting.axisTitleY.visibility">visible</option>
+        <option name="charting.axisTitleY2.visibility">visible</option>
+        <option name="charting.axisX.scale">linear</option>
+        <option name="charting.axisY.scale">linear</option>
+        <option name="charting.axisY2.enabled">0</option>
+        <option name="charting.axisY2.scale">inherit</option>
+        <option name="charting.chart">column</option>
+        <option name="charting.chart.bubbleMaximumSize">50</option>
+        <option name="charting.chart.bubbleMinimumSize">10</option>
+        <option name="charting.chart.bubbleSizeBy">area</option>
+        <option name="charting.chart.nullValueMode">gaps</option>
+        <option name="charting.chart.showDataLabels">all</option>
+        <option name="charting.chart.sliceCollapsingThreshold">0.01</option>
+        <option name="charting.chart.stackMode">default</option>
+        <option name="charting.chart.style">shiny</option>
+        <option name="charting.drilldown">all</option>
+        <option name="charting.layout.splitSeries">0</option>
+        <option name="charting.layout.splitSeries.allowIndependentYRanges">0</option>
+        <option name="charting.legend.labelStyle.overflowMode">ellipsisMiddle</option>
+        <option name="charting.legend.placement">bottom</option>
+      </chart>
+    </panel>
+  </row>
+  <row>
+    <panel>
+      <title>Max CPU Use (%)</title>
+      <chart>
+        <search>
+          <query>| inputlookup mlspl_perf_result.csv | where command="$varCommand$" | where algo="$varAlogirthm$"  | eval "num_features"="Num of Fields: ".num_features | eval "command_time(sec)"=if('command_time(sec)'&gt;'run_time(sec)', 'run_time(sec)', 'command_time(sec)') | eval "command_time(sec)"=round('command_time(sec)', 1) | eval "cpu_time(sec)"=round('cpu_time(sec)', 1)| eval "cpu_percent(%)"=round('cpu_percent(%)', 0) | table command algo "command_time(sec)" "cpu_time(sec)" "cpu_percent(%)" "disk_write(kb)" "num_features" "num_inputs" "run_time(sec)" "memory(mb)" "result_message"  | chart max("cpu_percent(%)")  by "num_inputs" "num_features"</query>
+        </search>
+        <option name="charting.axisLabelsX.majorLabelStyle.overflowMode">ellipsisNone</option>
+        <option name="charting.axisLabelsX.majorLabelStyle.rotation">0</option>
+        <option name="charting.axisTitleX.text">Number of Events</option>
+        <option name="charting.axisTitleX.visibility">visible</option>
+        <option name="charting.axisTitleY.text">Max CPU Use (%)</option>
+        <option name="charting.axisTitleY.visibility">visible</option>
+        <option name="charting.axisTitleY2.visibility">visible</option>
+        <option name="charting.axisX.scale">linear</option>
+        <option name="charting.axisY.scale">linear</option>
+        <option name="charting.axisY2.enabled">0</option>
+        <option name="charting.axisY2.scale">inherit</option>
+        <option name="charting.chart">column</option>
+        <option name="charting.chart.bubbleMaximumSize">50</option>
+        <option name="charting.chart.bubbleMinimumSize">10</option>
+        <option name="charting.chart.bubbleSizeBy">area</option>
+        <option name="charting.chart.nullValueMode">gaps</option>
+        <option name="charting.chart.showDataLabels">all</option>
+        <option name="charting.chart.sliceCollapsingThreshold">0.01</option>
+        <option name="charting.chart.stackMode">default</option>
+        <option name="charting.chart.style">shiny</option>
+        <option name="charting.drilldown">all</option>
+        <option name="charting.layout.splitSeries">0</option>
+        <option name="charting.layout.splitSeries.allowIndependentYRanges">0</option>
+        <option name="charting.legend.labelStyle.overflowMode">ellipsisMiddle</option>
+        <option name="charting.legend.placement">bottom</option>
+      </chart>
+    </panel>
+  </row>
+  <row>
+    <panel>
+      <title>CPU Time (sec)</title>
+      <chart>
+        <search>
+          <query>| inputlookup mlspl_perf_result.csv | where command="$varCommand$" | where algo="$varAlogirthm$"  | eval "num_features"="Num of Fields: ".num_features | eval "command_time(sec)"=if('command_time(sec)'&gt;'run_time(sec)', 'run_time(sec)', 'command_time(sec)') | eval "command_time(sec)"=round('command_time(sec)', 1) | eval "cpu_time(sec)"=round('cpu_time(sec)', 1)| eval "cpu_percent(%)"=round('cpu_percent(%)', 0) | table command algo "command_time(sec)" "cpu_time(sec)" "cpu_percent(%)" "disk_write(kb)" "num_features" "num_inputs" "run_time(sec)" "memory(mb)" "result_message"  | chart max("cpu_time(sec)")  by "num_inputs" "num_features"</query>
+        </search>
+        <option name="charting.axisLabelsX.majorLabelStyle.overflowMode">ellipsisNone</option>
+        <option name="charting.axisLabelsX.majorLabelStyle.rotation">0</option>
+        <option name="charting.axisTitleX.text">Number of Events</option>
+        <option name="charting.axisTitleX.visibility">visible</option>
+        <option name="charting.axisTitleY.text">CPU Time (sec)</option>
+        <option name="charting.axisTitleY.visibility">visible</option>
+        <option name="charting.axisTitleY2.visibility">visible</option>
+        <option name="charting.axisX.scale">linear</option>
+        <option name="charting.axisY.scale">linear</option>
+        <option name="charting.axisY2.enabled">0</option>
+        <option name="charting.axisY2.scale">inherit</option>
+        <option name="charting.chart">column</option>
+        <option name="charting.chart.bubbleMaximumSize">50</option>
+        <option name="charting.chart.bubbleMinimumSize">10</option>
+        <option name="charting.chart.bubbleSizeBy">area</option>
+        <option name="charting.chart.nullValueMode">gaps</option>
+        <option name="charting.chart.showDataLabels">all</option>
+        <option name="charting.chart.sliceCollapsingThreshold">0.01</option>
+        <option name="charting.chart.stackMode">default</option>
+        <option name="charting.chart.style">shiny</option>
+        <option name="charting.drilldown">all</option>
+        <option name="charting.layout.splitSeries">0</option>
+        <option name="charting.layout.splitSeries.allowIndependentYRanges">0</option>
+        <option name="charting.legend.labelStyle.overflowMode">ellipsisMiddle</option>
+        <option name="charting.legend.placement">bottom</option>
+      </chart>
+    </panel>
+  </row>
+  <row>
+    <panel>
+      <title>Total Disk Write (KB)</title>
+      <chart>
+        <search>
+          <query>| inputlookup mlspl_perf_result.csv | where command="$varCommand$" | where algo="$varAlogirthm$"  | eval "num_features"="Num of Fields: ".num_features | eval "command_time(sec)"=if('command_time(sec)'&gt;'run_time(sec)', 'run_time(sec)', 'command_time(sec)') | eval "command_time(sec)"=round('command_time(sec)', 1) | eval "cpu_time(sec)"=round('cpu_time(sec)', 1)| eval "cpu_percent(%)"=round('cpu_percent(%)', 0) | table command algo "command_time(sec)" "cpu_time(sec)" "cpu_percent(%)" "disk_write(kb)" "num_features" "num_inputs" "run_time(sec)" "memory(mb)" "result_message"  | chart max("disk_write(kb)")  by "num_inputs" "num_features"</query>
+        </search>
+        <option name="charting.axisLabelsX.majorLabelStyle.overflowMode">ellipsisNone</option>
+        <option name="charting.axisLabelsX.majorLabelStyle.rotation">0</option>
+        <option name="charting.axisTitleX.text">Number of Events</option>
+        <option name="charting.axisTitleX.visibility">visible</option>
+        <option name="charting.axisTitleY.text">Total Disk Write (KB)</option>
+        <option name="charting.axisTitleY.visibility">visible</option>
+        <option name="charting.axisTitleY2.visibility">visible</option>
+        <option name="charting.axisX.scale">linear</option>
+        <option name="charting.axisY.scale">log</option>
+        <option name="charting.axisY2.enabled">0</option>
+        <option name="charting.axisY2.scale">inherit</option>
+        <option name="charting.chart">column</option>
+        <option name="charting.chart.bubbleMaximumSize">50</option>
+        <option name="charting.chart.bubbleMinimumSize">10</option>
+        <option name="charting.chart.bubbleSizeBy">area</option>
+        <option name="charting.chart.nullValueMode">gaps</option>
+        <option name="charting.chart.showDataLabels">all</option>
+        <option name="charting.chart.sliceCollapsingThreshold">0.01</option>
+        <option name="charting.chart.stackMode">default</option>
+        <option name="charting.chart.style">shiny</option>
+        <option name="charting.drilldown">all</option>
+        <option name="charting.layout.splitSeries">0</option>
+        <option name="charting.layout.splitSeries.allowIndependentYRanges">0</option>
+        <option name="charting.legend.labelStyle.overflowMode">ellipsisMiddle</option>
+        <option name="charting.legend.placement">bottom</option>
+      </chart>
+    </panel>
+  </row> 
+  <row>
+    <panel depends="$varAlogirthm$, $varCommand$">
+      <title>ML-SPL Performance Raw Result - Command: $varCommand$, Algorithm: $varAlogirthm$</title>
+      <table>
+        <title>Click any row to view single job history.</title>
+        <search>
+          <query>| inputlookup mlspl_perf_result.csv | where command="$varCommand$" | where algo="$varAlogirthm$"  | eval "command_time(sec)"=round('command_time(sec)', 1) | eval "cpu_time(sec)"=round('cpu_time(sec)', 1)| eval "cpu_percent(%)"=round('cpu_percent(%)', 0) | eval "command_time(sec)"=if('command_time(sec)'&gt;'run_time(sec)', 'run_time(sec)', 'command_time(sec)') | table command algo "command_time(sec)" "cpu_time(sec)" "cpu_percent(%)" "disk_write(kb)" "num_features" "num_inputs" "run_time(sec)" "memory(mb)" "result_message", "testname"</query>
+        </search>
+        <option name="count">100</option>
+        <option name="previewResults">true</option>
+        <option name="drilldown">row</option>
+        <drilldown>
+          <link target="_blank">
+            /app/Splunk_ML_SPL_Performance/ml_spl_single_job?form.varTestName=$row.testname$
+          </link>
+      	</drilldown>
+        <option name="wrap">true</option>
+        <option name="rowNumbers">false</option>
+        <option name="dataOverlayMode">none</option>
+      </table>
+    </panel>
+  </row>
+</form>

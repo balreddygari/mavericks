@@ -1,0 +1,6 @@
+testname,mem_mb,cpu_percent,disk_write_kb,cpu_usr_time,time
+aws.m3.large_apply_DecisionTreeClassifier_i5000_f20,0.0,0.0,0.0,0.0,2016-09-10 14:45:44
+aws.m3.large_apply_DecisionTreeClassifier_i5000_f20,21.0,0.0,0.0,0.14,2016-09-10 14:45:44
+aws.m3.large_apply_DecisionTreeClassifier_i5000_f20,38.0,80.3,4.0,0.26,2016-09-10 14:45:44
+aws.m3.large_apply_DecisionTreeClassifier_i5000_f20,53.0,82.2,4.0,0.43,2016-09-10 14:45:44
+aws.m3.large_apply_DecisionTreeClassifier_i5000_f20,68.0,91.4,4.0,0.56,2016-09-10 14:45:45

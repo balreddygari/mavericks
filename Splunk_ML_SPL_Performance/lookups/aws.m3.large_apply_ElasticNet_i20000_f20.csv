@@ -1,0 +1,9 @@
+testname,mem_mb,cpu_percent,disk_write_kb,cpu_usr_time,time
+aws.m3.large_apply_ElasticNet_i20000_f20,0.0,0.0,0.0,0.0,2016-09-09 05:35:45
+aws.m3.large_apply_ElasticNet_i20000_f20,21.0,0.0,0.0,0.11,2016-09-09 05:35:46
+aws.m3.large_apply_ElasticNet_i20000_f20,38.0,90.7,4.0,0.28,2016-09-09 05:35:46
+aws.m3.large_apply_ElasticNet_i20000_f20,38.0,0.0,4.0,0.28,2016-09-09 05:35:46
+aws.m3.large_apply_ElasticNet_i20000_f20,55.0,97.6,4.0,0.49,2016-09-09 05:35:47
+aws.m3.large_apply_ElasticNet_i20000_f20,83.0,98.6,4.0,0.63,2016-09-09 05:35:47
+aws.m3.large_apply_ElasticNet_i20000_f20,86.0,99.1,4.0,0.86,2016-09-09 05:35:47
+aws.m3.large_apply_ElasticNet_i20000_f20,69.0,28.0,4.0,0.92,2016-09-09 05:35:47

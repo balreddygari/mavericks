@@ -1,0 +1,3 @@
+Machine,vCPU,Mem (GiB),SSD Storage (GB),OS Version,MLTK Version,PSC Version
+Amazon AWS m3.large,2 x 2.5GHz,7.5,32,CentOS 6.4,2.0,1.2
+More to come...,,,,,,

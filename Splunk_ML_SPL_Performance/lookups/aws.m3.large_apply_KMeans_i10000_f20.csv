@@ -1,0 +1,8 @@
+testname,mem_mb,cpu_percent,disk_write_kb,cpu_usr_time,time
+aws.m3.large_apply_KMeans_i10000_f20,0.0,0.0,0.0,0.0,2016-09-10 18:41:05
+aws.m3.large_apply_KMeans_i10000_f20,21.0,0.0,0.0,0.15,2016-09-10 18:41:05
+aws.m3.large_apply_KMeans_i10000_f20,38.0,75.7,4.0,0.28,2016-09-10 18:41:05
+aws.m3.large_apply_KMeans_i10000_f20,51.0,55.9,4.0,0.39,2016-09-10 18:41:06
+aws.m3.large_apply_KMeans_i10000_f20,68.0,99.0,8.0,0.57,2016-09-10 18:41:06
+aws.m3.large_apply_KMeans_i10000_f20,72.0,95.2,8.0,0.76,2016-09-10 18:41:06
+aws.m3.large_apply_KMeans_i10000_f20,66.0,59.7,12.0,0.89,2016-09-10 18:41:06

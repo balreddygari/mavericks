@@ -1,0 +1,6 @@
+testname,mem_mb,cpu_percent,disk_write_kb,cpu_usr_time,time
+aws.m3.large_fit_PCA_i500_f20,0.0,0.0,0.0,0.0,2016-09-08 22:30:57
+aws.m3.large_fit_PCA_i500_f20,20.0,0.0,0.0,0.1,2016-09-08 22:30:57
+aws.m3.large_fit_PCA_i500_f20,39.0,98.7,4.0,0.27,2016-09-08 22:30:57
+aws.m3.large_fit_PCA_i500_f20,54.0,97.9,4.0,0.47,2016-09-08 22:30:57
+aws.m3.large_fit_PCA_i500_f20,66.0,74.0,16.0,0.57,2016-09-08 22:30:58

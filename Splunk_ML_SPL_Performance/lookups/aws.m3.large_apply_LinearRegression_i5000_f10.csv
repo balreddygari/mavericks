@@ -1,0 +1,6 @@
+testname,mem_mb,cpu_percent,disk_write_kb,cpu_usr_time,time
+aws.m3.large_apply_LinearRegression_i5000_f10,0.0,0.0,0.0,0.0,2016-09-09 03:34:33
+aws.m3.large_apply_LinearRegression_i5000_f10,21.0,0.0,0.0,0.13,2016-09-09 03:34:33
+aws.m3.large_apply_LinearRegression_i5000_f10,37.0,75.6,4.0,0.26,2016-09-09 03:34:33
+aws.m3.large_apply_LinearRegression_i5000_f10,52.0,85.8,4.0,0.44,2016-09-09 03:34:34
+aws.m3.large_apply_LinearRegression_i5000_f10,67.0,91.3,4.0,0.58,2016-09-09 03:34:34

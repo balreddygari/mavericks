@@ -1,0 +1,13 @@
+testname,mem_mb,cpu_percent,disk_write_kb,cpu_usr_time,time
+aws.m3.large_apply_LinearRegression_i50000_f10,0.0,0.0,0.0,0.0,2016-09-09 03:36:20
+aws.m3.large_apply_LinearRegression_i50000_f10,21.0,0.0,0.0,0.16,2016-09-09 03:36:20
+aws.m3.large_apply_LinearRegression_i50000_f10,38.0,59.2,0.0,0.29,2016-09-09 03:36:21
+aws.m3.large_apply_LinearRegression_i50000_f10,38.0,0.0,0.0,0.29,2016-09-09 03:36:21
+aws.m3.large_apply_LinearRegression_i50000_f10,38.0,0.0,0.0,0.29,2016-09-09 03:36:21
+aws.m3.large_apply_LinearRegression_i50000_f10,54.0,62.6,0.0,0.41,2016-09-09 03:36:21
+aws.m3.large_apply_LinearRegression_i50000_f10,81.0,99.6,4.0,0.59,2016-09-09 03:36:22
+aws.m3.large_apply_LinearRegression_i50000_f10,91.0,99.0,4.0,0.75,2016-09-09 03:36:22
+aws.m3.large_apply_LinearRegression_i50000_f10,94.0,99.0,4.0,0.99,2016-09-09 03:36:22
+aws.m3.large_apply_LinearRegression_i50000_f10,73.0,63.3,4.0,1.14,2016-09-09 03:36:22
+aws.m3.large_apply_LinearRegression_i50000_f10,73.0,3.5,8.0,1.15,2016-09-09 03:36:23
+aws.m3.large_apply_LinearRegression_i50000_f10,0.0,0.0,0.0,0.0,2016-09-09 03:36:23

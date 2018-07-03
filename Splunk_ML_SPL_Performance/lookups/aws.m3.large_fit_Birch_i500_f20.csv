@@ -1,0 +1,9 @@
+testname,mem_mb,cpu_percent,disk_write_kb,cpu_usr_time,time
+aws.m3.large_fit_Birch_i500_f20,0.0,0.0,0.0,0.0,2016-09-08 21:39:57
+aws.m3.large_fit_Birch_i500_f20,21.0,0.0,0.0,0.14,2016-09-08 21:39:57
+aws.m3.large_fit_Birch_i500_f20,43.0,98.3,4.0,0.33,2016-09-08 21:39:57
+aws.m3.large_fit_Birch_i500_f20,57.0,90.5,4.0,0.51,2016-09-08 21:39:58
+aws.m3.large_fit_Birch_i500_f20,66.0,95.6,8.0,0.68,2016-09-08 21:39:58
+aws.m3.large_fit_Birch_i500_f20,69.0,97.8,8.0,0.92,2016-09-08 21:39:58
+aws.m3.large_fit_Birch_i500_f20,70.0,97.4,8.0,1.17,2016-09-08 21:39:58
+aws.m3.large_fit_Birch_i500_f20,68.0,39.5,1656.0,1.25,2016-09-08 21:39:59

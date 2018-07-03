@@ -1,0 +1,23 @@
+testname,mem_mb,cpu_percent,disk_write_kb,cpu_usr_time,time
+aws.m3.large_fit_LogisticRegression_i20000_f20,0.0,0.0,0.0,0.0,2016-09-08 19:13:35
+aws.m3.large_fit_LogisticRegression_i20000_f20,20.0,0.0,0.0,0.11,2016-09-08 19:13:35
+aws.m3.large_fit_LogisticRegression_i20000_f20,41.0,95.8,8.0,0.28,2016-09-08 19:13:35
+aws.m3.large_fit_LogisticRegression_i20000_f20,56.0,98.8,8.0,0.48,2016-09-08 19:13:35
+aws.m3.large_fit_LogisticRegression_i20000_f20,61.0,16.0,12.0,0.51,2016-09-08 19:13:36
+aws.m3.large_fit_LogisticRegression_i20000_f20,88.0,72.5,12.0,0.64,2016-09-08 19:13:36
+aws.m3.large_fit_LogisticRegression_i20000_f20,139.0,98.2,12.0,0.78,2016-09-08 19:13:36
+aws.m3.large_fit_LogisticRegression_i20000_f20,148.0,99.3,12.0,1.02,2016-09-08 19:13:36
+aws.m3.large_fit_LogisticRegression_i20000_f20,148.0,89.1,12.0,1.26,2016-09-08 19:13:37
+aws.m3.large_fit_LogisticRegression_i20000_f20,148.0,98.9,12.0,1.51,2016-09-08 19:13:37
+aws.m3.large_fit_LogisticRegression_i20000_f20,148.0,95.0,12.0,1.75,2016-09-08 19:13:37
+aws.m3.large_fit_LogisticRegression_i20000_f20,148.0,99.4,12.0,2.0,2016-09-08 19:13:37
+aws.m3.large_fit_LogisticRegression_i20000_f20,148.0,99.1,12.0,2.25,2016-09-08 19:13:38
+aws.m3.large_fit_LogisticRegression_i20000_f20,148.0,95.2,12.0,2.49,2016-09-08 19:13:38
+aws.m3.large_fit_LogisticRegression_i20000_f20,148.0,99.2,12.0,2.74,2016-09-08 19:13:38
+aws.m3.large_fit_LogisticRegression_i20000_f20,159.0,95.8,12.0,2.97,2016-09-08 19:13:38
+aws.m3.large_fit_LogisticRegression_i20000_f20,160.0,96.2,12.0,3.2,2016-09-08 19:13:39
+aws.m3.large_fit_LogisticRegression_i20000_f20,157.0,83.8,20.0,3.37,2016-09-08 19:13:39
+aws.m3.large_fit_LogisticRegression_i20000_f20,137.0,4.0,28.0,3.37,2016-09-08 19:13:39
+aws.m3.large_fit_LogisticRegression_i20000_f20,137.0,0.0,28.0,3.37,2016-09-08 19:13:39
+aws.m3.large_fit_LogisticRegression_i20000_f20,137.0,0.0,28.0,3.37,2016-09-08 19:13:40
+aws.m3.large_fit_LogisticRegression_i20000_f20,137.0,0.0,28.0,3.37,2016-09-08 19:13:40

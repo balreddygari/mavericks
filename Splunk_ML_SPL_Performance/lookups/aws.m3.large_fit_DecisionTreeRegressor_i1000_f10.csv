@@ -1,0 +1,6 @@
+testname,mem_mb,cpu_percent,disk_write_kb,cpu_usr_time,time
+aws.m3.large_fit_DecisionTreeRegressor_i1000_f10,0.0,0.0,0.0,0.0,2016-09-08 18:37:07
+aws.m3.large_fit_DecisionTreeRegressor_i1000_f10,21.0,0.0,0.0,0.15,2016-09-08 18:37:07
+aws.m3.large_fit_DecisionTreeRegressor_i1000_f10,41.0,86.8,4.0,0.32,2016-09-08 18:37:08
+aws.m3.large_fit_DecisionTreeRegressor_i1000_f10,57.0,99.0,4.0,0.51,2016-09-08 18:37:08
+aws.m3.large_fit_DecisionTreeRegressor_i1000_f10,67.0,70.3,176.0,0.63,2016-09-08 18:37:08

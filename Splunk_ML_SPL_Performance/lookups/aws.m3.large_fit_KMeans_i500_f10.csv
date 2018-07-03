@@ -1,0 +1,6 @@
+testname,mem_mb,cpu_percent,disk_write_kb,cpu_usr_time,time
+aws.m3.large_fit_KMeans_i500_f10,0.0,0.0,0.0,0.0,2016-09-08 21:16:02
+aws.m3.large_fit_KMeans_i500_f10,20.0,0.0,0.0,0.12,2016-09-08 21:16:02
+aws.m3.large_fit_KMeans_i500_f10,41.0,98.6,4.0,0.29,2016-09-08 21:16:02
+aws.m3.large_fit_KMeans_i500_f10,57.0,98.1,4.0,0.48,2016-09-08 21:16:02
+aws.m3.large_fit_KMeans_i500_f10,66.0,94.7,16.0,0.67,2016-09-08 21:16:03

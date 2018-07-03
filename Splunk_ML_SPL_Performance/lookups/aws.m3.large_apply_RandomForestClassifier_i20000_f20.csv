@@ -1,0 +1,10 @@
+testname,mem_mb,cpu_percent,disk_write_kb,cpu_usr_time,time
+aws.m3.large_apply_RandomForestClassifier_i20000_f20,0.0,0.0,0.0,0.0,2016-09-10 12:47:39
+aws.m3.large_apply_RandomForestClassifier_i20000_f20,21.0,0.0,0.0,0.12,2016-09-10 12:47:39
+aws.m3.large_apply_RandomForestClassifier_i20000_f20,41.0,86.9,4.0,0.28,2016-09-10 12:47:40
+aws.m3.large_apply_RandomForestClassifier_i20000_f20,38.0,19.9,4.0,0.31,2016-09-10 12:47:40
+aws.m3.large_apply_RandomForestClassifier_i20000_f20,58.0,74.6,4.0,0.46,2016-09-10 12:47:40
+aws.m3.large_apply_RandomForestClassifier_i20000_f20,73.0,94.5,4.0,0.63,2016-09-10 12:47:40
+aws.m3.large_apply_RandomForestClassifier_i20000_f20,91.0,99.1,4.0,0.8,2016-09-10 12:47:41
+aws.m3.large_apply_RandomForestClassifier_i20000_f20,94.0,99.1,4.0,1.05,2016-09-10 12:47:41
+aws.m3.large_apply_RandomForestClassifier_i20000_f20,91.0,16.0,8.0,1.08,2016-09-10 12:47:41

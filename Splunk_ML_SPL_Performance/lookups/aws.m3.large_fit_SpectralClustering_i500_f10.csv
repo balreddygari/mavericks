@@ -1,0 +1,6 @@
+testname,mem_mb,cpu_percent,disk_write_kb,cpu_usr_time,time
+aws.m3.large_fit_SpectralClustering_i500_f10,0.0,0.0,0.0,0.0,2016-09-08 21:03:24
+aws.m3.large_fit_SpectralClustering_i500_f10,21.0,0.0,0.0,0.14,2016-09-08 21:03:24
+aws.m3.large_fit_SpectralClustering_i500_f10,43.0,98.4,0.0,0.32,2016-09-08 21:03:25
+aws.m3.large_fit_SpectralClustering_i500_f10,56.0,94.1,0.0,0.51,2016-09-08 21:03:25
+aws.m3.large_fit_SpectralClustering_i500_f10,70.0,96.6,4.0,0.69,2016-09-08 21:03:25

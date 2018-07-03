@@ -1,0 +1,9 @@
+testname,mem_mb,cpu_percent,disk_write_kb,cpu_usr_time,time
+aws.m3.large_apply_LogisticRegression_i10000_f50,0.0,0.0,0.0,0.0,2016-09-09 23:50:42
+aws.m3.large_apply_LogisticRegression_i10000_f50,21.0,0.0,0.0,0.14,2016-09-09 23:50:42
+aws.m3.large_apply_LogisticRegression_i10000_f50,38.0,69.6,4.0,0.29,2016-09-09 23:50:43
+aws.m3.large_apply_LogisticRegression_i10000_f50,52.0,58.8,4.0,0.4,2016-09-09 23:50:43
+aws.m3.large_apply_LogisticRegression_i10000_f50,79.0,98.5,4.0,0.58,2016-09-09 23:50:43
+aws.m3.large_apply_LogisticRegression_i10000_f50,88.0,103.2,4.0,0.76,2016-09-09 23:50:43
+aws.m3.large_apply_LogisticRegression_i10000_f50,70.0,82.6,4.0,0.96,2016-09-09 23:50:44
+aws.m3.large_apply_LogisticRegression_i10000_f50,70.0,20.7,12.0,1.0,2016-09-09 23:50:44

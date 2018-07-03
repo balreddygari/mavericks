@@ -1,0 +1,61 @@
+<form>
+  <label>Splunk&gt; Sample Data Sources for Security Use Cases</label>
+  <fieldset submitButton="false" autoRun="true">
+    <input type="dropdown" token="usecase_token">
+      <label>Select Security Use Case:</label>
+      <fieldForLabel>usecase</fieldForLabel>
+      <fieldForValue>usecase</fieldForValue>
+      <search>
+        <query>| inputlookup securitymapping_hl.csv 
+| stats count by "Use Case" | rename "Use Case" as usecase | dedup usecase | sort - usecase</query>
+      </search>
+      <choice value="*">All</choice>
+      <default>Zero-Day Attacks</default>
+    </input>
+  </fieldset>
+  <row>
+    <panel>
+      <html>
+      <h2>
+      Splunk&gt; see the forest, and the trees!! All data has security relevance if you've the right tools to correlate across disparate and complex systems.
+      </h2>
+      <ul>
+          <li>Sample of Splunk&gt; <a href="https://www.splunk.com/en_us/resources/use-cases.html">How-to Detect: Security and Fraud Use Cases</a> (including <a href="http://docs.splunk.com/Documentation/ES/4.5.0/Usecases/Overview"> Walk-Throughs</a>).</li>
+      </ul>
+
+    </html>
+    </panel>
+  </row>
+  <row>
+    <panel>
+      <title>Data Source Mapping for Detecting: "$usecase_token$"</title>
+      <viz type="sankey_diagram_app.sankey_diagram">
+        <search>
+          <query>| inputlookup securitymapping_hl.csv 
+| search "Use Case"="$usecase_token$" | stats count by "Use Case" "Mapped"
+| sort - "Use Case"</query>
+          <earliest>0.000</earliest>
+          <sampleRatio>1</sampleRatio>
+        </search>
+      </viz>
+    </panel>
+    <panel>
+      <table>
+        <search>
+          <query>| inputlookup securitymapping_hl.csv 
+| search "Use Case"="$usecase_token$" | stats count by "Use Case" "Mapped"
+| sort - "Use Case" | fields - count</query>
+          <earliest>0.000</earliest>
+          <sampleRatio>1</sampleRatio>
+        </search>
+        <option name="count">20</option>
+        <option name="dataOverlayMode">none</option>
+        <option name="drilldown">cell</option>
+        <option name="percentagesRow">false</option>
+        <option name="rowNumbers">false</option>
+        <option name="totalsRow">false</option>
+        <option name="wrap">true</option>
+      </table>
+    </panel>
+  </row>
+</form>

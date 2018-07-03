@@ -1,0 +1,6 @@
+testname,mem_mb,cpu_percent,disk_write_kb,cpu_usr_time,time
+aws.m3.large_fit_ElasticNet_i1000_f20,0.0,0.0,0.0,0.0,2016-09-08 17:22:49
+aws.m3.large_fit_ElasticNet_i1000_f20,21.0,0.0,0.0,0.15,2016-09-08 17:22:49
+aws.m3.large_fit_ElasticNet_i1000_f20,43.0,88.7,4.0,0.34,2016-09-08 17:22:50
+aws.m3.large_fit_ElasticNet_i1000_f20,59.0,100.0,4.0,0.54,2016-09-08 17:22:50
+aws.m3.large_fit_ElasticNet_i1000_f20,68.0,70.4,16.0,0.67,2016-09-08 17:22:50

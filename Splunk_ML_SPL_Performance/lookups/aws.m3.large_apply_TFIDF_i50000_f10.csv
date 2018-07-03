@@ -1,0 +1,14 @@
+testname,mem_mb,cpu_percent,disk_write_kb,cpu_usr_time,time
+aws.m3.large_apply_TFIDF_i50000_f10,0.0,0.0,0.0,0.0,2016-09-11 12:19:50
+aws.m3.large_apply_TFIDF_i50000_f10,21.0,0.0,0.0,0.1,2016-09-11 12:19:50
+aws.m3.large_apply_TFIDF_i50000_f10,38.0,91.5,4.0,0.27,2016-09-11 12:19:50
+aws.m3.large_apply_TFIDF_i50000_f10,53.0,66.4,4.0,0.41,2016-09-11 12:19:50
+aws.m3.large_apply_TFIDF_i50000_f10,69.0,98.7,4.0,0.59,2016-09-11 12:19:51
+aws.m3.large_apply_TFIDF_i50000_f10,69.0,100.3,4.0,0.85,2016-09-11 12:19:51
+aws.m3.large_apply_TFIDF_i50000_f10,69.0,100.2,4.0,1.1,2016-09-11 12:19:51
+aws.m3.large_apply_TFIDF_i50000_f10,69.0,96.6,4.0,1.36,2016-09-11 12:19:51
+aws.m3.large_apply_TFIDF_i50000_f10,69.0,100.1,4.0,1.62,2016-09-11 12:19:52
+aws.m3.large_apply_TFIDF_i50000_f10,83.0,98.2,4.0,1.81,2016-09-11 12:19:52
+aws.m3.large_apply_TFIDF_i50000_f10,89.0,98.6,4.0,2.05,2016-09-11 12:19:52
+aws.m3.large_apply_TFIDF_i50000_f10,71.0,15.9,4.0,2.08,2016-09-11 12:19:52
+aws.m3.large_apply_TFIDF_i50000_f10,0.0,0.0,0.0,0.0,2016-09-11 12:19:53

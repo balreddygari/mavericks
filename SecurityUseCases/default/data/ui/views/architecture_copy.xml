@@ -1,0 +1,30 @@
+<dashboard>
+  <label>Scrapbook</label>
+  <row>
+    <panel>
+      <html>
+        
+      <center>
+        <h1>Welcome to the Operational Intelligence Demo</h1>
+      </center>
+		<center>
+        <h3>
+		This Splunk setup is capturing data from a variety of applications, operating systems and network devices.
+        </h3>
+    </center>          
+		<center>
+          <img src="/static/app/SecurityUseCases/images/arch.png"/>
+    </center>
+		<center>
+          <img src="/static/app/SecurityUseCases/images/EcoSystem.png"/>
+    </center>
+		<center>
+          <img src="/static/app/SecurityUseCases/images/SplunkDataFabric.png"/>
+    </center>
+		<center>
+          <img src="/static/app/SecurityUseCases/images/alldata.png"/>
+    </center>
+      </html>
+    </panel>
+  </row>
+</dashboard>

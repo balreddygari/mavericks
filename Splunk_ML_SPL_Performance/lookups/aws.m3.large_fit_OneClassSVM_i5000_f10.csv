@@ -1,0 +1,18 @@
+testname,mem_mb,cpu_percent,disk_write_kb,cpu_usr_time,time
+aws.m3.large_fit_OneClassSVM_i5000_f10,0.0,0.0,0.0,0.0,2016-09-08 22:05:27
+aws.m3.large_fit_OneClassSVM_i5000_f10,21.0,0.0,0.0,0.12,2016-09-08 22:05:28
+aws.m3.large_fit_OneClassSVM_i5000_f10,41.0,95.3,0.0,0.29,2016-09-08 22:05:28
+aws.m3.large_fit_OneClassSVM_i5000_f10,57.0,99.0,0.0,0.5,2016-09-08 22:05:28
+aws.m3.large_fit_OneClassSVM_i5000_f10,80.0,71.2,4.0,0.59,2016-09-08 22:05:28
+aws.m3.large_fit_OneClassSVM_i5000_f10,100.0,95.9,4.0,0.81,2016-09-08 22:05:29
+aws.m3.large_fit_OneClassSVM_i5000_f10,122.0,100.2,4.0,1.03,2016-09-08 22:05:29
+aws.m3.large_fit_OneClassSVM_i5000_f10,142.0,100.3,4.0,1.26,2016-09-08 22:05:29
+aws.m3.large_fit_OneClassSVM_i5000_f10,160.0,96.6,4.0,1.47,2016-09-08 22:05:29
+aws.m3.large_fit_OneClassSVM_i5000_f10,174.0,97.0,4.0,1.7,2016-09-08 22:05:30
+aws.m3.large_fit_OneClassSVM_i5000_f10,174.0,97.2,4.0,1.94,2016-09-08 22:05:30
+aws.m3.large_fit_OneClassSVM_i5000_f10,85.0,100.8,4.0,2.16,2016-09-08 22:05:30
+aws.m3.large_fit_OneClassSVM_i5000_f10,85.0,96.9,8.0,2.4,2016-09-08 22:05:30
+aws.m3.large_fit_OneClassSVM_i5000_f10,85.0,86.9,8.0,2.64,2016-09-08 22:05:31
+aws.m3.large_fit_OneClassSVM_i5000_f10,85.0,100.9,8.0,2.89,2016-09-08 22:05:31
+aws.m3.large_fit_OneClassSVM_i5000_f10,89.0,79.0,660.0,3.06,2016-09-08 22:05:31
+aws.m3.large_fit_OneClassSVM_i5000_f10,84.0,0.0,668.0,3.06,2016-09-08 22:05:31

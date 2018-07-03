@@ -1,0 +1,22 @@
+testname,mem_mb,cpu_percent,disk_write_kb,cpu_usr_time,time
+aws.m3.large_apply_SGDRegressor_i50000_f50,0.0,0.0,0.0,0.0,2016-09-09 21:51:13
+aws.m3.large_apply_SGDRegressor_i50000_f50,21.0,0.0,0.0,0.14,2016-09-09 21:51:13
+aws.m3.large_apply_SGDRegressor_i50000_f50,38.0,71.4,0.0,0.26,2016-09-09 21:51:14
+aws.m3.large_apply_SGDRegressor_i50000_f50,38.0,0.0,0.0,0.26,2016-09-09 21:51:14
+aws.m3.large_apply_SGDRegressor_i50000_f50,38.0,0.0,0.0,0.26,2016-09-09 21:51:14
+aws.m3.large_apply_SGDRegressor_i50000_f50,52.0,35.0,0.0,0.32,2016-09-09 21:51:14
+aws.m3.large_apply_SGDRegressor_i50000_f50,67.0,98.1,0.0,0.51,2016-09-09 21:51:15
+aws.m3.large_apply_SGDRegressor_i50000_f50,102.0,95.4,4.0,0.69,2016-09-09 21:51:15
+aws.m3.large_apply_SGDRegressor_i50000_f50,130.0,101.4,4.0,0.91,2016-09-09 21:51:15
+aws.m3.large_apply_SGDRegressor_i50000_f50,181.0,97.5,4.0,1.04,2016-09-09 21:51:15
+aws.m3.large_apply_SGDRegressor_i50000_f50,165.0,99.3,4.0,1.21,2016-09-09 21:51:16
+aws.m3.large_apply_SGDRegressor_i50000_f50,167.0,99.4,4.0,1.45,2016-09-09 21:51:16
+aws.m3.large_apply_SGDRegressor_i50000_f50,169.0,99.4,4.0,1.7,2016-09-09 21:51:16
+aws.m3.large_apply_SGDRegressor_i50000_f50,171.0,99.1,4.0,1.95,2016-09-09 21:51:16
+aws.m3.large_apply_SGDRegressor_i50000_f50,173.0,103.2,4.0,2.2,2016-09-09 21:51:17
+aws.m3.large_apply_SGDRegressor_i50000_f50,175.0,95.3,4.0,2.44,2016-09-09 21:51:17
+aws.m3.large_apply_SGDRegressor_i50000_f50,85.0,38.0,4.0,2.51,2016-09-09 21:51:17
+aws.m3.large_apply_SGDRegressor_i50000_f50,85.0,0.0,4.0,2.51,2016-09-09 21:51:17
+aws.m3.large_apply_SGDRegressor_i50000_f50,85.0,0.0,4.0,2.51,2016-09-09 21:51:18
+aws.m3.large_apply_SGDRegressor_i50000_f50,85.0,0.0,4.0,2.51,2016-09-09 21:51:18
+aws.m3.large_apply_SGDRegressor_i50000_f50,0.0,0.0,0.0,0.0,2016-09-09 21:51:18

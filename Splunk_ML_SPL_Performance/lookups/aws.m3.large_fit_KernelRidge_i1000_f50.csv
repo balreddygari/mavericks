@@ -1,0 +1,7 @@
+testname,mem_mb,cpu_percent,disk_write_kb,cpu_usr_time,time
+aws.m3.large_fit_KernelRidge_i1000_f50,0.0,0.0,0.0,0.0,2016-09-08 18:32:08
+aws.m3.large_fit_KernelRidge_i1000_f50,21.0,0.0,0.0,0.13,2016-09-08 18:32:08
+aws.m3.large_fit_KernelRidge_i1000_f50,42.0,98.2,4.0,0.31,2016-09-08 18:32:08
+aws.m3.large_fit_KernelRidge_i1000_f50,59.0,98.4,4.0,0.51,2016-09-08 18:32:09
+aws.m3.large_fit_KernelRidge_i1000_f50,83.0,74.7,8.0,0.64,2016-09-08 18:32:09
+aws.m3.large_fit_KernelRidge_i1000_f50,80.0,74.5,536.0,0.77,2016-09-08 18:32:09

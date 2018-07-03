@@ -1,0 +1,6 @@
+testname,mem_mb,cpu_percent,disk_write_kb,cpu_usr_time,time
+aws.m3.large_apply_FieldSelector_i5000_f10,0.0,0.0,0.0,0.0,2016-09-11 13:44:41
+aws.m3.large_apply_FieldSelector_i5000_f10,21.0,0.0,0.0,0.13,2016-09-11 13:44:42
+aws.m3.large_apply_FieldSelector_i5000_f10,37.0,80.5,4.0,0.27,2016-09-11 13:44:42
+aws.m3.large_apply_FieldSelector_i5000_f10,52.0,78.4,4.0,0.43,2016-09-11 13:44:42
+aws.m3.large_apply_FieldSelector_i5000_f10,65.0,91.2,4.0,0.57,2016-09-11 13:44:42

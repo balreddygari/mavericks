@@ -1,0 +1,25 @@
+testname,mem_mb,cpu_percent,disk_write_kb,cpu_usr_time,time
+aws.m3.large_apply_KMeans_i50000_f50,0.0,0.0,0.0,0.0,2016-09-10 18:42:35
+aws.m3.large_apply_KMeans_i50000_f50,22.0,0.0,0.0,0.1,2016-09-10 18:42:36
+aws.m3.large_apply_KMeans_i50000_f50,37.0,93.3,0.0,0.3,2016-09-10 18:42:36
+aws.m3.large_apply_KMeans_i50000_f50,38.0,4.0,4.0,0.3,2016-09-10 18:42:36
+aws.m3.large_apply_KMeans_i50000_f50,38.0,0.0,4.0,0.3,2016-09-10 18:42:36
+aws.m3.large_apply_KMeans_i50000_f50,49.0,19.6,4.0,0.32,2016-09-10 18:42:37
+aws.m3.large_apply_KMeans_i50000_f50,65.0,97.6,4.0,0.53,2016-09-10 18:42:37
+aws.m3.large_apply_KMeans_i50000_f50,101.0,99.4,4.0,0.72,2016-09-10 18:42:37
+aws.m3.large_apply_KMeans_i50000_f50,140.0,101.6,4.0,0.91,2016-09-10 18:42:38
+aws.m3.large_apply_KMeans_i50000_f50,206.0,93.3,4.0,1.03,2016-09-10 18:42:38
+aws.m3.large_apply_KMeans_i50000_f50,206.0,100.4,4.0,1.29,2016-09-10 18:42:38
+aws.m3.large_apply_KMeans_i50000_f50,207.0,104.1,8.0,1.55,2016-09-10 18:42:38
+aws.m3.large_apply_KMeans_i50000_f50,209.0,97.3,8.0,1.8,2016-09-10 18:42:39
+aws.m3.large_apply_KMeans_i50000_f50,191.0,98.9,8.0,1.93,2016-09-10 18:42:39
+aws.m3.large_apply_KMeans_i50000_f50,193.0,99.1,8.0,2.18,2016-09-10 18:42:39
+aws.m3.large_apply_KMeans_i50000_f50,195.0,99.1,8.0,2.43,2016-09-10 18:42:39
+aws.m3.large_apply_KMeans_i50000_f50,197.0,99.0,8.0,2.67,2016-09-10 18:42:40
+aws.m3.large_apply_KMeans_i50000_f50,199.0,99.1,8.0,2.92,2016-09-10 18:42:40
+aws.m3.large_apply_KMeans_i50000_f50,201.0,99.0,8.0,3.17,2016-09-10 18:42:40
+aws.m3.large_apply_KMeans_i50000_f50,96.0,47.5,8.0,3.25,2016-09-10 18:42:40
+aws.m3.large_apply_KMeans_i50000_f50,96.0,0.0,8.0,3.25,2016-09-10 18:42:41
+aws.m3.large_apply_KMeans_i50000_f50,96.0,0.0,8.0,3.25,2016-09-10 18:42:41
+aws.m3.large_apply_KMeans_i50000_f50,96.0,0.0,8.0,3.25,2016-09-10 18:42:41
+aws.m3.large_apply_KMeans_i50000_f50,95.0,20.5,16.0,3.3,2016-09-10 18:42:41

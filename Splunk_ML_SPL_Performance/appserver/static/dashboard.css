@@ -1,0 +1,19 @@
+#viewBtn1 {
+ position: relative;
+ top: -20px;
+ left: 2px;
+}
+
+#viewBtn2 {
+ position: relative;
+ top: -20px;
+ left: 2px;
+}
+
+#row3 .dashboard-element .html {
+ overflow:visible;
+}
+
+#row4 .dashboard-element .html {
+ overflow:visible;
+}

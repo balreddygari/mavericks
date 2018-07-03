@@ -1,0 +1,8 @@
+testname,mem_mb,cpu_percent,disk_write_kb,cpu_usr_time,time
+aws.m3.large_fit_SGDClassifier_i5000_f20,0.0,0.0,0.0,0.0,2016-09-08 20:53:53
+aws.m3.large_fit_SGDClassifier_i5000_f20,21.0,0.0,0.0,0.15,2016-09-08 20:53:54
+aws.m3.large_fit_SGDClassifier_i5000_f20,41.0,87.3,4.0,0.32,2016-09-08 20:53:54
+aws.m3.large_fit_SGDClassifier_i5000_f20,58.0,95.1,4.0,0.51,2016-09-08 20:53:54
+aws.m3.large_fit_SGDClassifier_i5000_f20,82.0,75.3,8.0,0.62,2016-09-08 20:53:54
+aws.m3.large_fit_SGDClassifier_i5000_f20,90.0,95.9,16.0,0.83,2016-09-08 20:53:55
+aws.m3.large_fit_SGDClassifier_i5000_f20,85.0,4.0,20.0,0.83,2016-09-08 20:53:55

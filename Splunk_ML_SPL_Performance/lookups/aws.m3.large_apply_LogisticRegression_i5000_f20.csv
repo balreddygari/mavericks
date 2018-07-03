@@ -1,0 +1,6 @@
+testname,mem_mb,cpu_percent,disk_write_kb,cpu_usr_time,time
+aws.m3.large_apply_LogisticRegression_i5000_f20,0.0,0.0,0.0,0.0,2016-09-09 23:49:56
+aws.m3.large_apply_LogisticRegression_i5000_f20,21.0,0.0,0.0,0.14,2016-09-09 23:49:56
+aws.m3.large_apply_LogisticRegression_i5000_f20,38.0,80.7,4.0,0.27,2016-09-09 23:49:56
+aws.m3.large_apply_LogisticRegression_i5000_f20,52.0,65.7,4.0,0.41,2016-09-09 23:49:57
+aws.m3.large_apply_LogisticRegression_i5000_f20,67.0,100.2,4.0,0.56,2016-09-09 23:49:57

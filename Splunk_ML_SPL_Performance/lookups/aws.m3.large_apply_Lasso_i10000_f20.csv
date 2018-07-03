@@ -1,0 +1,7 @@
+testname,mem_mb,cpu_percent,disk_write_kb,cpu_usr_time,time
+aws.m3.large_apply_Lasso_i10000_f20,0.0,0.0,0.0,0.0,2016-09-09 07:35:34
+aws.m3.large_apply_Lasso_i10000_f20,21.0,0.0,0.0,0.13,2016-09-09 07:35:34
+aws.m3.large_apply_Lasso_i10000_f20,37.0,83.4,0.0,0.29,2016-09-09 07:35:35
+aws.m3.large_apply_Lasso_i10000_f20,51.0,55.2,4.0,0.4,2016-09-09 07:35:35
+aws.m3.large_apply_Lasso_i10000_f20,72.0,100.2,4.0,0.57,2016-09-09 07:35:35
+aws.m3.large_apply_Lasso_i10000_f20,75.0,95.9,4.0,0.76,2016-09-09 07:35:35

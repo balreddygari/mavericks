@@ -1,0 +1,110 @@
+Security Domain,High/Low View,Security Sub-Domain,Data Sources,count,Importance,Control,,Use Case,Mapped,,,,ControlNumber,Control Desc
+Asset/Identity,Low,,Active Directory (AD),1,High,,,Investigate Malware,End-Point,,,,1,Inventory of Authorized and unauthorized devices
+Asset/Identity,Low,,Lightweight Directory Access Protocol (LDAP),1,High,,,Investigate Malware,Web Proxy,,,,2,Inventory of Authorized and unauthorized software
+Asset/Identity,Low,,Configuration anagement Database (CMDB),1,High,,,Investigate Malware,Threat Intelligence,,??,,3,"Secure Configurations for Hardware and software on Laptops, Workstations and servers"
+Asset/Identity,Low,,Human Resource Management System (HRMS),1,,,,,,,,,4,Continuous Vulnerability Assessment and remediation
+Access,Low,,Access Management Software,1,,,,Stop Data Exfiltration,DNS,,,,5,Malware defense
+Access,Low,,Operating System Logs,1,,,,Stop Data Exfiltration,Email (Exchange / Sendmail),,,,6,Application Software Security
+Access,Low,,Application Logs,1,,,,Stop Data Exfiltration,Firewall,,Port Mapping?,,7,Wireless device Control
+Access,Low,,Virtual Private Network (VPN),1,,,,Stop Data Exfiltration,Threat Intelligence,,,,8,Data Recovery Capability
+Access,Low,,"Authentication, Authorization & Accounting (AAA)",1,,,,Stop Data Exfiltration,Whitelist,,Non-Corp Web Sites,,9,Security Skills Assessment
+Access,Low,,Single Sign On (SSO),1,,,,,,,,,10,"Secure Configurations for Firewalls, routers and switches"
+End-Point,Low,,Dynamic Host Configuration Protocol (DHCP),1,,,,,,,,,11,"Limitation and Control of network Ports, Protocols and switches"
+End-Point,Low,,End-Point Suites (AV/IPS/FW),1,,,,Privileged User Monitoring,Identity & Access Management (IAM),,,,12,Controlled use of Admin Privileges
+End-Point,Low,,PC Lifecycle Managemen (PCLM),1,,,,Privileged User Monitoring,Active Directory (AD),,,,13,Boundary Defense
+End-Point,Low,,Operating System Logs,1,,,,Privileged User Monitoring,Lightweight Directory Access Protocol (LDAP),,,,14,"Maintenance, Monitoring and Analysis of Audit Logs"
+End-Point,Low,,Patching,1,,,,Patient Zero Malware,Malware,,,,15,Controlled Access based on the need to Know
+End-Point,Low,,Malware Detection,1,,,,Patient Zero Malware,DNS,,,,16,Account Monitoring and Control
+Network,Low,,Firewall,1,,,,Patient Zero Malware,Web Proxy,,,,17,Data Loss Prevention
+Network,Low,,IDS/IPS,1,,,,Zero-Day Attacks,Threat Intelligence,,,,18,Incident Response and Management
+Network,Low,,Vulnerability Scanners,1,,,,Zero-Day Attacks,DNS,,,,19,Secure Network Engineering
+Network,Low,,Web Proxy,1,,,,Zero-Day Attacks,Web Proxy,,Web proxy/server,,20,Pen Testing and red Team exercises
+Network,Low,,NetFlow,1,,,,Zero-Day Attacks,Active Directory (AD),,,,,
+Network,Low,,Network Span Ports (Wired Data),1,,,,Zero-Day Attacks,Identity & Access Management (IAM),,,,,
+Threat Intelligence,Low,,3rd Party (Commerical/Community),1,,,,Zero-Day Attacks,Audit Logs,,,,,
+Threat Intelligence,Low,,OpenSource,1,,,,Zero-Day Attacks,Operating System,,,,,
+Threat Intelligence,Low,,Internal,1,,,,Fraud: Account Takeovers,Web Analytics Products,,,,,
+Asset/Identity,High,Asset,Active Directory (AD),1,,1,,Fraud: Account Takeovers,Web Proxies/Servers,,,,,
+Asset/Identity,High,Asset,Lightweight Directory Access Protocol (LDAP),1,,1,,Fraud: Account Takeovers,NetFlow,,,,,
+Asset/Identity,High,Asset,Configuration anagement Database (CMDB),1,,"1,3",,Fraud: Account Takeovers,Wire Data (Including Splunk Stream),,??,,,
+Asset/Identity,High,Asset,Asset Discovery Tools,1,,1,,Fraud: Account Takeovers,Application Logs,,,,,
+Asset/Identity,High,Vulnerability Management,Bit9 Parity,1,,2,,Complaince: Critical System Stops Logging,Authentication Systems,,,,,
+Asset/Identity,High,Vulnerability Management,IBM BigFix,1,,2,,Complaince: Critical System Stops Logging,File Stores,,,,,
+Asset/Identity,High,Vulnerability Management,Microsoft System Center,1,,2,,Complaince: Critical System Stops Logging,Databases,,,,,
+Asset/Identity,High,Asset,Software Whitelist (Hashed),1,,2,,Complaince: Critical System Stops Logging,Operating Systems,,,,,
+Asset/Identity,High,Asset,Microsoft SCOM,1,,1,,Complaince: Critical System Stops Logging,Anti-Malware Software,,,,,
+Asset/Identity,High,Asset,Sophos,1,,1,,Complaince: Critical System Stops Logging,File Integrity Monitoring (FIM),,,,,
+Asset/Identity,High,Asset,Symantec End-Point Protection,1,,1,,Complaince: Critical System Stops Logging,Firewalls,,,,,
+Asset/Identity,High,Asset,McAfee EPO,1,,1,,Complaince: Critical System Stops Logging,IPS/IDS,,,,,
+Asset/Identity,High,Asset,ServiceNow,1,,1,,Complaince: Critical System Stops Logging,Data Loss Prevention,,,,,
+Asset/Identity,High,Asset,Cisco ISE,1,,1,,Complaince: Critical System Stops Logging,Vulnerability Scanners,,,,,
+Asset/Identity,High,Asset,Nmap,1,,1,,Complaince: Critical System Stops Logging,Backup Software,,,,,
+Asset/Identity,High,Asset,"Vulnerability Mgmt - Nmap, Nessus, RedSeal, Qualys and Nexpose",1,,1,,,,,,,,
+Asset/Identity,High,Asset,Risk Register,1,,1,,,,,,,,
+Asset/Identity,High,Asset,Business Continuity Plan,1,,1,,,,,,,,
+Asset/Identity,High,Asset,XML / CSV,1,,1,,,,,,,,
+Asset/Identity,High,Discovery Engines,IBM TADDM,1,,1,,,,,,,,
+Asset/Identity,High,Discovery Engines,BMC Atrium Discovery,1,,1,,,,,,,,
+Asset/Identity,High,Security Configuration Management (SCM),IBM BigFix,1,,3,,,,,,,,
+Asset/Identity,High,Security Configuration Management (SCM),Tripwire CCM / Enterprise,1,,3,,,,,,,,
+Asset/Identity,High,Security Configuration Management (SCM),Symantec CSP,1,,3,,,,,,,,
+Asset/Identity,High,Identities,Active Directory,1,,,,,,,,,,
+Asset/Identity,High,Identities,Lightweight Directory Access Protocol (LDAP),1,,,,,,,,,,
+Asset/Identity,High,Identities,Okta,1,,,,,,,,,,
+Asset/Identity,High,Identities,ServiceNow,1,,,,,,,,,,
+Asset/Identity,High,Identities,Cisco ISE,1,,,,,,,,,,
+Asset/Identity,High,Identities,Human Resource Management System (HRMS),1,,,,,,,,,,
+Access,High,Authentication,Windows Security Logs,1,,,,,,,,,,
+Access,High,Authentication,Active Directory (AD) logs,1,,,,,,,,,,
+Access,High,Authentication,syslog,1,,,,,,,,,,
+Access,High,Authentication,local *nix logs,1,,,,,,,,,,
+Access,High,Authentication,network device logins,1,,,,,,,,,,
+Access,High,Authentication,security device logins,1,,,,,,,,,,
+Access,High,Authentication,VPN logins,1,,,,,,,,,,
+Access,High,Authentication,RSA TokenID,1,,,,,,,,,,
+Access,High,Authentication,Physical Access Cards,1,,,,,,,,,,
+Access,High,Authentication,Juniper Remote Access,1,,,,,,,,,,
+Access,High,Authentication,CyberArk Vault,1,,,,,,,,,,
+Network,High,Network devices internal logs,Cisco,1,,,,,,,,,,
+Network,High,Network devices internal logs,Juniper,1,,,,,,,,,,
+Network,High,Network devices internal logs,Check Point,1,,,,,,,,,,
+Network,High,Network traffic,Cisco,1,,,,,,,,,,
+Network,High,Network traffic,Juniper,1,,,,,,,,,,
+Network,High,Network traffic,Check Point,1,,,,,,,,,,
+Network,High,Network traffic,Palo Alto Firewall,1,,,,,,,,,,
+Network,High,Email,Cisco ESA,1,,,,,,,,,,
+Network,High,Email,Ironport,1,,,,,,,,,,
+Network,High,Email,ClearSwift Mail Gateway,1,,,,,,,,,,
+Network,High,Vulnerability,Rapid7 Nexpose,1,,"1,4",,,,,,,,
+Network,High,Vulnerability,Tenable Nessus,1,,"1,4",,,,,,,,
+Network,High,Vulnerability,Qualys,1,,"1,4",,,,,,,,
+Network,High,Vulnerability,Tripwire IP360,1,,"1,4",,,,,,,,
+Network,High,Vulnerability,RedSeal,1,,"1,4",,,,,,,,
+Network,High,Web Proxy/Server,Apache,1,,,,,,,,,,
+Network,High,Web Proxy/Server,Tomcat,1,,,,,,,,,,
+Network,High,Web Proxy/Server,Internet Information Services (IIS),1,,,,,,,,,,
+Network,High,Web Proxy/Server,Bluecoat Proxy,1,,,,,,,,,,
+Network,High,Web Proxy/Server,Squid,1,,,,,,,,,,
+Network,High,Web Proxy/Server,Trustwave Secure Web Gateway,1,,,,,,,,,,
+Network,High,Wire Data,PCAP,1,,,,,,,,,,
+Network,High,Wire Data,Netflow,1,,,,,,,,,,
+Network,High,Wire Data,Splunk Stream,1,,,,,,,,,,
+Network,High,IDS logs,FireEye,1,,,,,,,,,,
+Network,High,IDS logs,Bro IDS,1,,,,,,,,,,
+Network,High,IDS logs,TippingPoint,1,,,,,,,,,,
+End-Point,High,DNS,Windows DNS,1,,,,,,,,,,
+End-Point,High,DNS,InfoBlox,1,,,,,,,,,,
+End-Point,High,DNS,BIND,1,,,,,,,,,,
+End-Point,High,Host Execution,Process / File Integraty Monitoring (FIM),1,,,,,,,,,,
+End-Point,High,Malware,McAfee EPO,1,,5,,,,,,,,
+End-Point,High,Malware,Symatec,1,,5,,,,,,,,
+End-Point,High,Malware,Sophos,1,,5,,,,,,,,
+End-Point,High,Malware,Trend Micro,1,,5,,,,,,,,
+End-Point,High,Malware,Kaspersky Lab,1,,,,,,,,,,
+End-Point,High,Endpoint Threat Detection and Response (EDR),Carbon Black,1,,,,,,,,,,
+End-Point,High,Host Execution,sysmon,1,,,,,,,,,,
+Threat Intelligence,High,Threat Feeds,CyBox,1,,,,,,,,,,
+Threat Intelligence,High,Threat Feeds,OpenIoC,1,,,,,,,,,,
+Threat Intelligence,High,Threat Feeds,STIX/TAXII,1,,,,,,,,,,
+Threat Intelligence,High,Threat Feeds,Commerical,1,,,,,,,,,,
+Threat Intelligence,High,Threat Feeds,Community,1,,,,,,,,,,

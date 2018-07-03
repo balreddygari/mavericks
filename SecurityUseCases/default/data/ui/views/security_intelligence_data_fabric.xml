@@ -1,0 +1,12 @@
+<dashboard>
+  <label>Security Intelligence Data Fabric</label>
+  <row>
+    <panel>
+      <html>
+		<center>
+          <img src="/static/app/SecurityUseCases/images/SplunkDataFabric.png"/>
+    </center>
+      </html>
+    </panel>
+  </row>
+</dashboard>

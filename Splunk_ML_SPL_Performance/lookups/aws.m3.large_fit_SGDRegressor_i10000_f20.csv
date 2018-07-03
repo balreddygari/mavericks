@@ -1,0 +1,11 @@
+testname,mem_mb,cpu_percent,disk_write_kb,cpu_usr_time,time
+aws.m3.large_fit_SGDRegressor_i10000_f20,0.0,0.0,0.0,0.0,2016-09-08 18:57:48
+aws.m3.large_fit_SGDRegressor_i10000_f20,21.0,0.0,0.0,0.12,2016-09-08 18:57:48
+aws.m3.large_fit_SGDRegressor_i10000_f20,41.0,94.7,4.0,0.29,2016-09-08 18:57:48
+aws.m3.large_fit_SGDRegressor_i10000_f20,55.0,96.1,4.0,0.5,2016-09-08 18:57:49
+aws.m3.large_fit_SGDRegressor_i10000_f20,71.0,43.4,8.0,0.55,2016-09-08 18:57:49
+aws.m3.large_fit_SGDRegressor_i10000_f20,106.0,97.1,8.0,0.73,2016-09-08 18:57:49
+aws.m3.large_fit_SGDRegressor_i10000_f20,111.0,99.0,8.0,0.97,2016-09-08 18:57:49
+aws.m3.large_fit_SGDRegressor_i10000_f20,98.0,34.9,20.0,1.02,2016-09-08 18:57:50
+aws.m3.large_fit_SGDRegressor_i10000_f20,98.0,0.0,20.0,1.02,2016-09-08 18:57:50
+aws.m3.large_fit_SGDRegressor_i10000_f20,0.0,37.4,0.0,1.08,2016-09-08 18:57:50

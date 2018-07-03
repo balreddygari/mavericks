@@ -1,0 +1,21 @@
+testname,mem_mb,cpu_percent,disk_write_kb,cpu_usr_time,time
+aws.m3.large_fit_SpectralClustering_i50000_f10,0.0,0.0,0.0,0.0,2016-09-08 21:04:42
+aws.m3.large_fit_SpectralClustering_i50000_f10,21.0,0.0,0.0,0.13,2016-09-08 21:04:42
+aws.m3.large_fit_SpectralClustering_i50000_f10,43.0,98.1,4.0,0.32,2016-09-08 21:04:42
+aws.m3.large_fit_SpectralClustering_i50000_f10,59.0,88.2,4.0,0.54,2016-09-08 21:04:43
+aws.m3.large_fit_SpectralClustering_i50000_f10,61.0,8.0,4.0,0.55,2016-09-08 21:04:43
+aws.m3.large_fit_SpectralClustering_i50000_f10,61.0,0.0,4.0,0.55,2016-09-08 21:04:43
+aws.m3.large_fit_SpectralClustering_i50000_f10,70.0,15.8,4.0,0.57,2016-09-08 21:04:43
+aws.m3.large_fit_SpectralClustering_i50000_f10,105.0,99.5,4.0,0.76,2016-09-08 21:04:44
+aws.m3.large_fit_SpectralClustering_i50000_f10,132.0,101.4,4.0,0.97,2016-09-08 21:04:44
+aws.m3.large_fit_SpectralClustering_i50000_f10,196.0,97.6,4.0,1.07,2016-09-08 21:04:44
+aws.m3.large_fit_SpectralClustering_i50000_f10,239.0,98.3,4.0,1.25,2016-09-08 21:04:44
+aws.m3.large_fit_SpectralClustering_i50000_f10,240.0,95.5,4.0,1.39,2016-09-08 21:04:45
+aws.m3.large_fit_SpectralClustering_i50000_f10,262.0,99.0,4.0,1.62,2016-09-08 21:04:45
+aws.m3.large_fit_SpectralClustering_i50000_f10,262.0,99.3,4.0,1.87,2016-09-08 21:04:45
+aws.m3.large_fit_SpectralClustering_i50000_f10,292.0,100.2,8.0,2.11,2016-09-08 21:04:45
+aws.m3.large_fit_SpectralClustering_i50000_f10,292.0,99.3,8.0,2.36,2016-09-08 21:04:46
+aws.m3.large_fit_SpectralClustering_i50000_f10,292.0,98.4,8.0,2.61,2016-09-08 21:04:46
+aws.m3.large_fit_SpectralClustering_i50000_f10,170.0,94.8,16.0,2.82,2016-09-08 21:04:46
+aws.m3.large_fit_SpectralClustering_i50000_f10,150.0,8.1,16.0,2.83,2016-09-08 21:04:46
+aws.m3.large_fit_SpectralClustering_i50000_f10,120.0,4.0,16.0,2.83,2016-09-08 21:04:47

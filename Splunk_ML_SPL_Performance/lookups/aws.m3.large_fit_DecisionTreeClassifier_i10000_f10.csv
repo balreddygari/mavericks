@@ -1,0 +1,11 @@
+testname,mem_mb,cpu_percent,disk_write_kb,cpu_usr_time,time
+aws.m3.large_fit_DecisionTreeClassifier_i10000_f10,0.0,0.0,0.0,0.0,2016-09-08 20:33:54
+aws.m3.large_fit_DecisionTreeClassifier_i10000_f10,21.0,0.0,0.0,0.12,2016-09-08 20:33:55
+aws.m3.large_fit_DecisionTreeClassifier_i10000_f10,41.0,89.1,4.0,0.29,2016-09-08 20:33:55
+aws.m3.large_fit_DecisionTreeClassifier_i10000_f10,57.0,101.6,4.0,0.5,2016-09-08 20:33:55
+aws.m3.large_fit_DecisionTreeClassifier_i10000_f10,78.0,47.3,8.0,0.56,2016-09-08 20:33:55
+aws.m3.large_fit_DecisionTreeClassifier_i10000_f10,106.0,99.4,12.0,0.75,2016-09-08 20:33:56
+aws.m3.large_fit_DecisionTreeClassifier_i10000_f10,109.0,103.2,12.0,1.0,2016-09-08 20:33:56
+aws.m3.large_fit_DecisionTreeClassifier_i10000_f10,108.0,70.0,596.0,1.15,2016-09-08 20:33:56
+aws.m3.large_fit_DecisionTreeClassifier_i10000_f10,97.0,0.0,600.0,1.15,2016-09-08 20:33:56
+aws.m3.large_fit_DecisionTreeClassifier_i10000_f10,97.0,0.0,600.0,1.15,2016-09-08 20:33:57

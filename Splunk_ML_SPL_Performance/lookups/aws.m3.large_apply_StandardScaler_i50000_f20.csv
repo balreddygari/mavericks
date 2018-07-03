@@ -1,0 +1,21 @@
+testname,mem_mb,cpu_percent,disk_write_kb,cpu_usr_time,time
+aws.m3.large_apply_StandardScaler_i50000_f20,0.0,0.0,0.0,0.0,2016-09-11 09:24:54
+aws.m3.large_apply_StandardScaler_i50000_f20,21.0,0.0,0.0,0.14,2016-09-11 09:24:54
+aws.m3.large_apply_StandardScaler_i50000_f20,37.0,74.7,4.0,0.27,2016-09-11 09:24:54
+aws.m3.large_apply_StandardScaler_i50000_f20,37.0,0.0,4.0,0.27,2016-09-11 09:24:55
+aws.m3.large_apply_StandardScaler_i50000_f20,37.0,0.0,4.0,0.27,2016-09-11 09:24:55
+aws.m3.large_apply_StandardScaler_i50000_f20,52.0,43.3,4.0,0.34,2016-09-11 09:24:55
+aws.m3.large_apply_StandardScaler_i50000_f20,76.0,98.4,4.0,0.52,2016-09-11 09:24:55
+aws.m3.large_apply_StandardScaler_i50000_f20,113.0,102.4,4.0,0.69,2016-09-11 09:24:56
+aws.m3.large_apply_StandardScaler_i50000_f20,130.0,95.3,4.0,0.87,2016-09-11 09:24:56
+aws.m3.large_apply_StandardScaler_i50000_f20,134.0,99.1,4.0,1.11,2016-09-11 09:24:56
+aws.m3.large_apply_StandardScaler_i50000_f20,138.0,102.6,4.0,1.36,2016-09-11 09:24:56
+aws.m3.large_apply_StandardScaler_i50000_f20,142.0,98.8,4.0,1.6,2016-09-11 09:24:57
+aws.m3.large_apply_StandardScaler_i50000_f20,146.0,98.9,4.0,1.85,2016-09-11 09:24:57
+aws.m3.large_apply_StandardScaler_i50000_f20,143.0,94.4,4.0,2.05,2016-09-11 09:24:57
+aws.m3.large_apply_StandardScaler_i50000_f20,124.0,7.9,4.0,2.05,2016-09-11 09:24:57
+aws.m3.large_apply_StandardScaler_i50000_f20,124.0,0.0,4.0,2.05,2016-09-11 09:24:58
+aws.m3.large_apply_StandardScaler_i50000_f20,124.0,0.0,4.0,2.05,2016-09-11 09:24:58
+aws.m3.large_apply_StandardScaler_i50000_f20,124.0,0.0,4.0,2.05,2016-09-11 09:24:58
+aws.m3.large_apply_StandardScaler_i50000_f20,0.0,0.0,0.0,0.0,2016-09-11 09:24:58
+aws.m3.large_apply_StandardScaler_i50000_f20,0.0,0.0,0.0,0.0,2016-09-11 09:24:59

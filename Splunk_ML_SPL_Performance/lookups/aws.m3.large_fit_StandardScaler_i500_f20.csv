@@ -1,0 +1,6 @@
+testname,mem_mb,cpu_percent,disk_write_kb,cpu_usr_time,time
+aws.m3.large_fit_StandardScaler_i500_f20,0.0,0.0,0.0,0.0,2016-09-09 02:57:04
+aws.m3.large_fit_StandardScaler_i500_f20,21.0,0.0,0.0,0.13,2016-09-09 02:57:05
+aws.m3.large_fit_StandardScaler_i500_f20,40.0,86.7,0.0,0.28,2016-09-09 02:57:05
+aws.m3.large_fit_StandardScaler_i500_f20,55.0,102.1,0.0,0.48,2016-09-09 02:57:05
+aws.m3.large_fit_StandardScaler_i500_f20,66.0,66.8,8.0,0.59,2016-09-09 02:57:05
